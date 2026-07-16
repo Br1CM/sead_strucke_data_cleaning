@@ -1,0 +1,756 @@
+﻿material,species,n_rows,n_tokens,n_matched,best_match_level,matched_genera,matched_families,matched_orders,sead_common_name,sead_species_name
+,,1,0.0,0.0,,,,,,
+Animalier,Fiskfjäll,1,1.0,0.0,,,,,,
+Animalier,Hjorthår,1,1.0,0.0,,,,,,
+Animalier,"Hjärnsubstans, människa",1,2.0,0.0,,,,,,
+Animalier,Hår,1,1.0,1.0,genus (suffix-inferred),Drosera,Droseraceae,Caryophyllales,,
+Animalier,Läder,6,1.0,1.0,genus (suffix-inferred),Sambucus,Alismataceae,Alismatales,,
+Animalier,Nötfiber,1,1.0,0.0,,,,,,
+Animalier,Nöthår,4,1.0,0.0,,,,,,
+Animalier,Renhår,1,1.0,0.0,,,,,,
+Animalier,Tagel,2,1.0,0.0,,,,,,
+Animalier,Textilfragment,1,1.0,0.0,,,,,,
+Animalier,Tjärat nöthår,1,1.0,0.0,,,,,,
+Animalier,Tågvirke,1,1.0,0.0,,,,,,
+Animalier,Ull,11,1.0,0.0,,,,,,
+Animalier,Ulltextil,1,1.0,0.0,,,,,,
+Bark,,164,0.0,0.0,,,,,,
+Bark,Al,5,1.0,0.0,,,,,,
+Bark,Albark,1,1.0,0.0,,,,,,
+Bark,Bark,1,1.0,0.0,,,,,,
+Bark,Bark/näver,1,2.0,0.0,,,,,,
+Bark,Barrträd,1,1.0,0.0,,,,,,
+Bark,Björk,21,1.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Bark,Björknäver,37,1.0,0.0,,,,,,
+Bark,Ek,4,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Bark,Gran,1,1.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Bark,Hassel,3,1.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Bark,Lind,5,1.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Bark,Lindbast,1,1.0,0.0,,,,,,
+Bark,Matskorpa,1,1.0,0.0,,,,,,
+Bark,Näver,25,1.0,0.0,,,,,,
+Bark,Näver?,1,1.0,0.0,,,,,,
+Bark,Råg,1,1.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Bark,Salix sp,1,1.0,1.0,genus (latin),Salix,Salicaceae,Salicales,,
+Bark,Sorbus sp,1,1.0,1.0,genus (latin),Sorbus,Rosaceae,Rosales,,
+Bark,Tall,18,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Bark,Tallbark,8,1.0,0.0,,,,,,
+Bark,cf Tilia sp,1,1.0,1.0,genus (latin),Tilia,Tiliaceae,Malvales,,
+"Ben, brända",,342,0.0,0.0,,,,,,
+"Ben, brända",(SOL),1,1.0,0.0,,,,,,
+"Ben, brända",Bränt ben,1,1.0,0.0,,,,,,
+"Ben, brända",Bäver,8,1.0,0.0,,,,,,
+"Ben, brända",Däggdjur,52,1.0,0.0,,,,,,
+"Ben, brända",Däggfjur,1,1.0,0.0,,,,,,
+"Ben, brända",Fisk,2,1.0,0.0,,,,,,
+"Ben, brända",Får/get,8,2.0,0.0,,,,,,
+"Ben, brända",Får/get alt. Svin,1,2.0,0.0,,,,,,
+"Ben, brända",Gris,1,1.0,0.0,,,,,,
+"Ben, brända",Gråsäl,1,1.0,0.0,,,,,,
+"Ben, brända",Grönlandssäl,1,1.0,0.0,,,,,,
+"Ben, brända",Gädda,1,1.0,0.0,,,,,,
+"Ben, brända",Horn,1,1.0,1.0,genus (suffix-inferred),Ibicella,Martyniaceae,Lamiales,,
+"Ben, brända",Hovdjur,2,1.0,0.0,,,,,,
+"Ben, brända",Hund,1,1.0,0.0,,,,,,
+"Ben, brända","Hund, Ospec.",1,2.0,0.0,,,,,,
+"Ben, brända",Häst,5,1.0,0.0,,,,,,
+"Ben, brända",Indet,1,1.0,0.0,,,,,,
+"Ben, brända",Katt,1,1.0,0.0,,,,,,
+"Ben, brända",Kronhjort,1,1.0,0.0,,,,,,
+"Ben, brända",Lamm,1,1.0,0.0,,,,,,
+"Ben, brända",Litet däggdjur,2,1.0,0.0,,,,,,
+"Ben, brända",Människa,621,1.0,0.0,,,,,,
+"Ben, brända","Människa, oid.",2,2.0,0.0,,,,,,
+"Ben, brända",Människa?,5,1.0,0.0,,,,,,
+"Ben, brända",Männska,1,1.0,0.0,,,,,,
+"Ben, brända",Nöt,1,1.0,0.0,,,,,,
+"Ben, brända",Nötboskap,2,1.0,0.0,,,,,,
+"Ben, brända",Nötkreatur,7,1.0,0.0,,,,,,
+"Ben, brända",Oid,1,1.0,0.0,,,,,,
+"Ben, brända",Ren,3,1.0,1.0,genus (suffix-inferred),Syringa,Oleaceae,Lamiales,,
+"Ben, brända",SOL fraktion,1,1.0,0.0,,,,,,
+"Ben, brända",Stor gräsätare,1,1.0,0.0,,,,,,
+"Ben, brända",Stort hovdjur,1,1.0,0.0,,,,,,
+"Ben, brända",Större däggdjur,1,1.0,0.0,,,,,,
+"Ben, brända",Svin,6,1.0,1.0,genus (suffix-inferred),Partenocissus,Vitaceae,Insertis Sedis,,
+"Ben, brända",Säl,33,1.0,0.0,,,,,,
+"Ben, brända",Tandrot,1,1.0,1.0,species (common name),Cardamine,Brassicaceae,Brassicales,tandrot,Cardamine bulbifera
+"Ben, brända",Uroxe,1,1.0,0.0,,,,,,
+"Ben, brända",Vikare,3,1.0,0.0,,,,,,
+"Ben, brända",Vikaresäl,2,1.0,0.0,,,,,,
+"Ben, brända",Älg,4,1.0,1.0,genus (suffix-inferred),Salix,Salicaceae,Salicales,,
+"Ben, obrända",,332,0.0,0.0,,,,,,
+"Ben, obrända",Björn,3,1.0,0.0,,,,,,
+"Ben, obrända",Bäver,2,1.0,0.0,,,,,,
+"Ben, obrända",Delfin,2,1.0,0.0,,,,,,
+"Ben, obrända",Djurben,21,1.0,0.0,,,,,,
+"Ben, obrända",Däggdjur,33,1.0,0.0,,,,,,
+"Ben, obrända",Däggdjur/gräsätare,1,2.0,0.0,,,,,,
+"Ben, obrända",Fisk,5,1.0,0.0,,,,,,
+"Ben, obrända",Fiskben,1,1.0,0.0,,,,,,
+"Ben, obrända",Fågel,1,1.0,0.0,,,,,,
+"Ben, obrända",Får,10,1.0,0.0,,,,,,
+"Ben, obrända",Får/Get,2,2.0,0.0,,,,,,
+"Ben, obrända",Får/get,27,2.0,0.0,,,,,,
+"Ben, obrända",Fårtand,1,1.0,0.0,,,,,,
+"Ben, obrända",Get,1,1.0,0.0,,,,,,
+"Ben, obrända",Gris,3,1.0,0.0,,,,,,
+"Ben, obrända",Gråsäl,2,1.0,0.0,,,,,,
+"Ben, obrända","Grönlandssäl, Däggdjur, terrest",1,3.0,0.0,,,,,,
+"Ben, obrända",Gädda,2,1.0,0.0,,,,,,
+"Ben, obrända",Hjort,2,1.0,0.0,,,,,,
+"Ben, obrända",Hovdjur,1,1.0,0.0,,,,,,
+"Ben, obrända",Hund,16,1.0,0.0,,,,,,
+"Ben, obrända",Häst,58,1.0,0.0,,,,,,
+"Ben, obrända",Häst eller nötkreatur,1,1.0,0.0,,,,,,
+"Ben, obrända",Häst/nötkreatur,1,2.0,0.0,,,,,,
+"Ben, obrända",Höna,1,1.0,0.0,,,,,,
+"Ben, obrända",Idisslare,2,1.0,0.0,,,,,,
+"Ben, obrända",Kalv,1,1.0,0.0,,,,,,
+"Ben, obrända",Katt,1,1.0,0.0,,,,,,
+"Ben, obrända",Ko,3,1.0,1.0,genus (suffix-inferred),Cypripedium,Orchidaceae,Asparagales,,
+"Ben, obrända",Kronhjort,16,1.0,0.0,,,,,,
+"Ben, obrända",Kärrsköldpadda,1,1.0,0.0,,,,,,
+"Ben, obrända",Männinska,1,1.0,0.0,,,,,,
+"Ben, obrända",Människa,469,1.0,0.0,,,,,,
+"Ben, obrända",Mört,1,1.0,0.0,,,,,,
+"Ben, obrända",Nörkreatur,3,1.0,0.0,,,,,,
+"Ben, obrända",Nöt,23,1.0,0.0,,,,,,
+"Ben, obrända",Nöt/älg,1,2.0,1.0,genus (suffix-inferred),Salix,Salicaceae,Salicales,,
+"Ben, obrända",Nötboskap,6,1.0,0.0,,,,,,
+"Ben, obrända",Nötkreatur,89,1.0,0.0,,,,,,
+"Ben, obrända",Nötkreatur?,4,1.0,0.0,,,,,,
+"Ben, obrända",Nötkrestur,1,1.0,0.0,,,,,,
+"Ben, obrända",Ren,3,1.0,1.0,genus (suffix-inferred),Syringa,Oleaceae,Lamiales,,
+"Ben, obrända",Räv,1,1.0,0.0,,,,,,
+"Ben, obrända",Rådjur,4,1.0,0.0,,,,,,
+"Ben, obrända",Sik,1,1.0,0.0,,,,,,
+"Ben, obrända",Stor gräsätare,1,1.0,0.0,,,,,,
+"Ben, obrända",Stort hovdjur,1,1.0,0.0,,,,,,
+"Ben, obrända",Svin,38,1.0,1.0,genus (suffix-inferred),Partenocissus,Vitaceae,Insertis Sedis,,
+"Ben, obrända",Säl,17,1.0,0.0,,,,,,
+"Ben, obrända",Torsk,1,1.0,0.0,,,,,,
+"Ben, obrända",Uroxe,2,1.0,0.0,,,,,,
+"Ben, obrända",Vildsvin,8,1.0,0.0,,,,,,
+"Ben, obrända",nöt,1,1.0,0.0,,,,,,
+"Ben, obrända",svin,2,1.0,1.0,genus (suffix-inferred),Partenocissus,Vitaceae,Insertis Sedis,,
+"Ben, obrända",Älg,12,1.0,1.0,genus (suffix-inferred),Salix,Salicaceae,Salicales,,
+"Ben, obrända",ötkreatur,1,1.0,0.0,,,,,,
+"Ben, obränt karbonat frakt.",,2,0.0,0.0,,,,,,
+"Ben,horn",Ren,2,1.0,1.0,genus (suffix-inferred),Syringa,Oleaceae,Lamiales,,
+Bröd,,5,0.0,0.0,,,,,,
+Bröd,Gröt/bröd,1,2.0,1.0,genus (suffix-inferred),Filipendula,Rosaceae,Rosales,,
+Fekalier,Gnagare,1,1.0,0.0,,,,,,
+Fisk,Aborrskinn,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),,12,0.0,0.0,,,,,,
+Frö (ej förkolnat),Al,2,1.0,0.0,,,,,,
+Frö (ej förkolnat),Cerealia indet,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Frö (ej förkolnat),Ek,1,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Frö (ej förkolnat),Enbär,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Fläder,1,1.0,1.0,species (common name),Sambucus,Alismataceae,Alismatales,fläder,Sambucus nigra
+Frö (ej förkolnat),Hasselnöt,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Havre,1,1.0,1.0,species (common name),Avena,Poaceae,Poales,havre,Avena sativa var sativa
+Frö (ej förkolnat),Igelknopp,2,1.0,1.0,species (common name),Sparganium,Typhaceae,Poales,igelknopp,Sparganium emersum
+Frö (ej förkolnat),Korn,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Kråkbär,1,1.0,1.0,species (common name),Empetrum,Ericaceae,Ericales,kråkbär,Empetrum nigrum ssp nigrum
+Frö (ej förkolnat),Lönn,1,1.0,1.0,species (common name),Acer,Acoraceae,Alismatales,lönn,Acer platanoides
+Frö (ej förkolnat),Lövträd,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Nate,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),"Nate, Vattenklöver",1,2.0,1.0,species (common name),Menyanthes,Menyanthaceae,Asterales,vattenklöver,Menyanthes trifoliata
+Frö (ej förkolnat),Råg,1,1.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Frö (ej förkolnat),Starr,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Starrfrukter,1,1.0,0.0,,,,,,
+Frö (ej förkolnat),Stenbär,1,1.0,1.0,species (common name),Rubus,Rosaceae,Rosales,stenbär,Rubus saxatilis
+Frö (ej förkolnat),"Svinmålla, Revormstörel",1,2.0,2.0,species (common name),"Chenopodium, Euphorbia","Chenopodiaceae, Euphorbiaceae","Caryophyllales, Malpighiales",svinmålla; revormstörel,Chenopodium album var album; Euphorbia helioscopia
+Frö (ej förkolnat),Tall,3,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Förkolnad,Bark,3,1.0,0.0,,,,,,
+Förkolnat frö,,210,0.0,0.0,,,,,,
+Förkolnat frö,Alkottar,2,1.0,0.0,,,,,,
+Förkolnat frö,Bergssyra,1,1.0,0.0,,,,,,
+Förkolnat frö,Bitterpilört,1,1.0,1.0,species (common name),Persicaria,Polygonaceae,Caryophyllales,bitterpilört,Persicaria hydropiper
+Förkolnat frö,Brudbröd,5,1.0,1.0,species (common name),Filipendula,Rosaceae,Rosales,brudbröd,Filipendula vulgaris
+Förkolnat frö,Brunskära,1,1.0,1.0,species (common name),Bidens,Asteraceae,Asterales,brunskära,Bidens tripartita
+Förkolnat frö,"Brännässla, Svinmålla",1,2.0,2.0,species (common name),"Chenopodium, Urtica","Chenopodiaceae, Urticaceae","Caryophyllales, Rosales",brännässla; svinmålla,Urtica dioica ssp dioica var dioica; Chenopodium album var album
+Förkolnat frö,Bröd- kubbvete,3,1.0,0.0,,,,,,
+Förkolnat frö,Bröd/kubbvete,39,2.0,1.0,genus (suffix-inferred),Filipendula,Rosaceae,Rosales,,
+Förkolnat frö,Bröd/skalvete,1,2.0,1.0,genus (suffix-inferred),Filipendula,Rosaceae,Rosales,,
+Förkolnat frö,Brödvete,35,1.0,0.0,,,,,,
+Förkolnat frö,"Brödvete, Hasselskal",1,2.0,0.0,,,,,,
+Förkolnat frö,Ceerealia indet,1,1.0,0.0,,,,,,
+Förkolnat frö,Ceralia,1,1.0,0.0,,,,,,
+Förkolnat frö,Cerealia,95,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,Cerealia Indet,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,Cerealia frag,3,1.0,0.0,,,,,,
+Förkolnat frö,Cerealia idet,2,1.0,0.0,,,,,,
+Förkolnat frö,"Cerealia idet, Poaceae indet",1,2.0,1.0,genus (latin),Poaceae,Poaceae,Poales,,
+Förkolnat frö,Cerealia indet,314,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,Cerealia sp,34,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,Cerealis indet,1,1.0,0.0,,,,,,
+Förkolnat frö,Cerelia indet,1,1.0,0.0,,,,,,
+Förkolnat frö,Cereralia,2,1.0,0.0,,,,,,
+Förkolnat frö,Crerealia indet,1,1.0,0.0,,,,,,
+Förkolnat frö,Dinkel/speltvete,1,2.0,1.0,species (common name),Triticum,Poaceae,Poales,speltvete,Triticum spelta
+Förkolnat frö,Däggdjur,1,1.0,0.0,,,,,,
+Förkolnat frö,Dån,1,1.0,0.0,,,,,,
+Förkolnat frö,Ek,1,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Förkolnat frö,Ekollon,7,1.0,0.0,,,,,,
+Förkolnat frö,Emmer,25,1.0,0.0,,,,,,
+Förkolnat frö,"Emmer, Brödvete",1,2.0,0.0,,,,,,
+Förkolnat frö,Emmer/Spelt,1,2.0,0.0,,,,,,
+Förkolnat frö,Emmer/spelt,17,2.0,0.0,,,,,,
+Förkolnat frö,"Emmer/spelt, Cerealia indet",1,3.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,Emmer/speltvete,16,2.0,1.0,species (common name),Triticum,Poaceae,Poales,speltvete,Triticum spelta
+Förkolnat frö,Emmer/spelvete,1,2.0,0.0,,,,,,
+Förkolnat frö,Emmervete,6,1.0,1.0,species (common name),Triticum,Poaceae,Poales,emmervete,Triticum turgidum
+Förkolnat frö,En,7,1.0,1.0,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis
+Förkolnat frö,Enbär,30,1.0,0.0,,,,,,
+Förkolnat frö,Enbär?,1,1.0,0.0,,,,,,
+Förkolnat frö,Enkorn/Emmer,1,2.0,0.0,,,,,,
+Förkolnat frö,Gräs,1,1.0,0.0,,,,,,
+Förkolnat frö,Gråärt,3,1.0,0.0,,,,,,
+Förkolnat frö,Gåsört,1,1.0,1.0,species (common name),Argentina,Rosaceae,Rosales,gåsört,Argentina anserina ssp anserina
+Förkolnat frö,Hallon,6,1.0,1.0,species (common name),Rubus,Rosaceae,Rosales,hallon,Rubus idaeus
+Förkolnat frö,Hampa,1,1.0,1.0,species (common name),Cannabis,Cannabaceae,Rosales,hampa,Cannabis sativa
+Förkolnat frö,Hasselnöt,1,1.0,0.0,,,,,,
+Förkolnat frö,Haver,1,1.0,0.0,,,,,,
+Förkolnat frö,Havre,42,1.0,1.0,species (common name),Avena,Poaceae,Poales,havre,Avena sativa var sativa
+Förkolnat frö,Hirs,2,1.0,1.0,species (common name),Panicum,Poaceae,Poales,hirs,Panicum miliaceum
+Förkolnat frö,Hjortron,1,1.0,1.0,species (common name),Rubus,Rosaceae,Rosales,hjortron,Rubus chamaemorus
+Förkolnat frö,Hordeum,12,1.0,1.0,genus (latin),Hordeum,Poaceae,Poales,,
+Förkolnat frö,Hordeum sp,1,1.0,1.0,genus (latin),Hordeum,Poaceae,Poales,,
+Förkolnat frö,Hordeum vulgare,10,1.0,0.0,,,,,,
+Förkolnat frö,Humle,1,1.0,1.0,species (common name),Humulus,Cannabaceae,Rosales,humle,Humulus lupulus
+Förkolnat frö,Hästböna,1,1.0,0.0,,,,,,
+Förkolnat frö,Iris,1,1.0,1.0,genus (latin),Iris,Iridaceae,Asparagales,,
+Förkolnat frö,Knylhavre,9,1.0,1.0,species (common name),Arrhenatherum,Poaceae,Poales,knylhavre,Arrhenatherum elatius ssp elatius
+Förkolnat frö,Korgblommiga växter,1,1.0,0.0,,,,,,
+Förkolnat frö,Korn,410,1.0,0.0,,,,,,
+Förkolnat frö,"Korn, Cerealia indet",1,2.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,"Korn, Råg",1,2.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Förkolnat frö,"Korn, naket",13,2.0,0.0,,,,,,
+Förkolnat frö,Korn/Råg,1,2.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Förkolnat frö,Korn?,2,1.0,0.0,,,,,,
+Förkolnat frö,Kråkbär,1,1.0,1.0,species (common name),Empetrum,Ericaceae,Ericales,kråkbär,Empetrum nigrum ssp nigrum
+Förkolnat frö,Kubbvete,10,1.0,0.0,,,,,,
+Förkolnat frö,Lin,15,1.0,1.0,species (common name),Linum,Linaceae,Malpighiales,lin,Linum usitatissimum
+Förkolnat frö,"Lin, Cerealia indet, målla",1,3.0,2.0,species (common name),"Cerealia, Linum","Cerealia, Linaceae","Cerealia, Malpighiales",lin,Linum usitatissimum
+Förkolnat frö,Lind,1,1.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Förkolnat frö,Linfrö,1,1.0,0.0,,,,,,
+Förkolnat frö,Mjölon,9,1.0,1.0,species (common name),Arctostaphylos,Ericaceae,Ericales,mjölon,Arctostaphylos uva-ursi
+Förkolnat frö,Människa,2,1.0,0.0,,,,,,
+Förkolnat frö,Måra,1,1.0,0.0,,,,,,
+Förkolnat frö,Najet korn,1,1.0,0.0,,,,,,
+Förkolnat frö,Naket kor,1,1.0,0.0,,,,,,
+Förkolnat frö,Naket korn,48,1.0,0.0,,,,,,
+Förkolnat frö,Nötkreatur,2,1.0,0.0,,,,,,
+Förkolnat frö,Ogräs,1,1.0,0.0,,,,,,
+Förkolnat frö,Ramslök,1,1.0,1.0,species (common name),Allium,Araliaceae,Apiales,ramslök,Allium ursinum
+Förkolnat frö,Rosoideae,1,1.0,0.0,,,,,,
+Förkolnat frö,Råg,89,1.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Förkolnat frö,Råg/Havre,1,2.0,2.0,species (common name),"Avena, Secale",Poaceae,Poales,råg; havre,Secale cereale; Avena sativa var sativa
+Förkolnat frö,Råglosta,2,1.0,1.0,species (common name),Bromus,Poaceae,Poales,råglosta,Bromus secalinus
+Förkolnat frö,Skalkorn,859,1.0,0.0,,,,,,
+Förkolnat frö,"Skalkorn, Cerealia indet",1,2.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,"Skalkorn, Råg",1,2.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Förkolnat frö,"Skalkorn, Vete",1,2.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,Skalkorn/råg,1,2.0,1.0,species (common name),Secale,Poaceae,Poales,råg,Secale cereale
+Förkolnat frö,Skalkorn?,1,1.0,0.0,,,,,,
+Förkolnat frö,Skalvete,1,1.0,0.0,,,,,,
+Förkolnat frö,Småsnärja,1,1.0,0.0,,,,,,
+Förkolnat frö,Smörblomma,1,1.0,1.0,species (common name),Ranunculus,Ranunculaceae,Ranunculales,smörblomma,Ranunculus acris ssp acris
+Förkolnat frö,Snärjmåra,1,1.0,1.0,species (common name),Galium,Rubiaceae,Gentianales,snärjmåra,Galium aparine var aparine
+Förkolnat frö,"Snärjmåra, Örtdelar",1,2.0,1.0,species (common name),Galium,Rubiaceae,Gentianales,snärjmåra,Galium aparine var aparine
+Förkolnat frö,Spel/Emmer,1,2.0,1.0,genus (suffix-inferred),Amelanchier,Rosaceae,Rosales,,
+Förkolnat frö,Spel/emmer,1,2.0,1.0,genus (suffix-inferred),Amelanchier,Rosaceae,Rosales,,
+Förkolnat frö,Spelt- emmervete,1,1.0,0.0,,,,,,
+Förkolnat frö,Spelt/Emmer,1,2.0,0.0,,,,,,
+Förkolnat frö,Spelt/emmer,3,2.0,0.0,,,,,,
+Förkolnat frö,Spelt/emmervete,28,2.0,1.0,species (common name),Triticum,Poaceae,Poales,emmervete,Triticum turgidum
+Förkolnat frö,Speltvete,6,1.0,1.0,species (common name),Triticum,Poaceae,Poales,speltvete,Triticum spelta
+Förkolnat frö,Staeefrukter,1,1.0,0.0,,,,,,
+Förkolnat frö,Starr,7,1.0,0.0,,,,,,
+Förkolnat frö,Stor Igelknopp,2,1.0,0.0,,,,,,
+Förkolnat frö,Svalört,2,1.0,1.0,species (common name),Ranunculus,Ranunculaceae,Ranunculales,svalört,Ranunculus ficaria ssp ficaria
+Förkolnat frö,Svinmålla,3,1.0,1.0,species (common name),Chenopodium,Chenopodiaceae,Caryophyllales,svinmålla,Chenopodium album var album
+Förkolnat frö,"Svinmålla, Pilört",1,2.0,2.0,species (common name),"Chenopodium, Persicaria","Chenopodiaceae, Polygonaceae",Caryophyllales,svinmålla,Chenopodium album var album
+Förkolnat frö,Syska,1,1.0,0.0,,,,,,
+Förkolnat frö,Säd,2,1.0,0.0,,,,,,
+Förkolnat frö,Sädeskorn,1,1.0,0.0,,,,,,
+Förkolnat frö,Tiggarranunkel,2,1.0,1.0,species (common name),Ranunculus,Ranunculaceae,Ranunculales,tiggarranunkel,Ranunculus scleratus
+Förkolnat frö,Trampört,1,1.0,1.0,genus (suffix-inferred),Polygonum,Polygonaceae,Caryophyllales,,
+Förkolnat frö,"Trampört, åkerbinda, Skräppa, brunskära",1,4.0,4.0,species (common name),"Bidens, Fallopia, Polygonum, Rumex","Asteraceae, Polygonaceae","Asterales, Caryophyllales",åkerbinda; brunskära,Fallopia convolvulus; Bidens tripartita
+Förkolnat frö,Trampört/pilört,1,2.0,2.0,genus (suffix-inferred),"Persicaria, Polygonum",Polygonaceae,Caryophyllales,,
+Förkolnat frö,Triticum,1,1.0,1.0,genus (latin),Triticum,Poaceae,Poales,,
+Förkolnat frö,Triticum aestivum,3,1.0,0.0,,,,,,
+Förkolnat frö,Triticum monococcum,1,1.0,0.0,,,,,,
+Förkolnat frö,Triticum sp,2,1.0,1.0,genus (latin),Triticum,Poaceae,Poales,,
+Förkolnat frö,Triticum spelta/dicoccum,1,2.0,0.0,,,,,,
+Förkolnat frö,Triticum vulgare,1,1.0,0.0,,,,,,
+Förkolnat frö,Vattenstäkra,1,1.0,1.0,species (common name),Oenanthe,Apiaceae,Apiales,vattenstäkra,Oenanthe aquatica
+Förkolnat frö,Vete,94,1.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,"Vete, emmer/spelt",11,3.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,"Vete, naket",1,2.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,"Vete, ospec",1,2.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,"Vete, spelt/emmer",3,3.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,Vete?,1,1.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Förkolnat frö,Vicker,4,1.0,1.0,genus (suffix-inferred),Vicia,Fabaceae,Fabales,,
+Förkolnat frö,Vicker?/Vial?,1,2.0,2.0,genus (suffix-inferred),"Lathyrus, Vicia",Fabaceae,Fabales,,
+Förkolnat frö,Växtdelar ört,1,1.0,0.0,,,,,,
+Förkolnat frö,bröd/kubbvete,2,2.0,1.0,genus (suffix-inferred),Filipendula,Rosaceae,Rosales,,
+Förkolnat frö,cf Avena sp,1,1.0,1.0,genus (latin),Avena,Poaceae,Poales,,
+Förkolnat frö,cf Cerealia,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Förkolnat frö,cf Hordeum sp,2,1.0,1.0,genus (latin),Hordeum,Poaceae,Poales,,
+Förkolnat frö,cf Hordeum vulgare,1,1.0,0.0,,,,,,
+Förkolnat frö,korn,1,1.0,0.0,,,,,,
+Förkolnat frö,Äppelkärna,1,1.0,0.0,,,,,,
+Förkolnat frö,Äpple,1,1.0,0.0,,,,,,
+Förkolnat frö,Ärta,4,1.0,0.0,,,,,,
+Förkolnat frö,Ärta/böna,1,2.0,1.0,species (common name),Phaseolus,Fabaceae,Fabales,böna,Phaseolus vulgaris
+Förkolnat frö,Åkerkrassling,1,1.0,0.0,,,,,,
+Förkolnat frö,Åkerpilört/skalkorn,1,2.0,1.0,species (common name),Persicaria,Polygonaceae,Caryophyllales,åkerpilört,Persicaria maculosa ssp maculosa
+Förkolnat frö,Ört,1,1.0,0.0,,,,,,
+Förkolnat frö,Örtstam,1,1.0,0.0,,,,,,
+Gyttja,,1,0.0,0.0,,,,,,
+Harts,,252,0.0,0.0,,,,,,
+Harts,Björk,1,1.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Horn,,5,0.0,0.0,,,,,,
+Horn,Bränt,4,1.0,0.0,,,,,,
+Horn,Hjort,2,1.0,0.0,,,,,,
+Horn,Hjortdjur,1,1.0,0.0,,,,,,
+Horn,Kronhjort,3,1.0,0.0,,,,,,
+Horn,Ren,1,1.0,1.0,genus (suffix-inferred),Syringa,Oleaceae,Lamiales,,
+Horn,Älg,1,1.0,1.0,genus (suffix-inferred),Salix,Salicaceae,Salicales,,
+Horn,Älg/ren,1,2.0,2.0,genus (suffix-inferred),"Salix, Syringa","Oleaceae, Salicaceae","Lamiales, Salicales",,
+Horn,Älg?,3,1.0,1.0,genus (suffix-inferred),Salix,Salicaceae,Salicales,,
+Humus,,24,0.0,0.0,,,,,,
+Järnslagg,,1,0.0,0.0,,,,,,
+Järnslagg,Smidesloppor,1,1.0,0.0,,,,,,
+Karbonat,,25,0.0,0.0,,,,,,
+Karbonat,Kalkbruk,2,1.0,0.0,,,,,,
+Kol i järn,,25,0.0,0.0,,,,,,
+Kol i järn,Amulettring,2,1.0,0.0,,,,,,
+Kol i järn,Hästsko,2,1.0,0.0,,,,,,
+Kol i järn,samt träkol,1,1.0,0.0,,,,,,
+Kol/sot,,1,0.0,0.0,,,,,,
+Kollagen,Hund,2,1.0,0.0,,,,,,
+Kollagen,Människa,1,1.0,0.0,,,,,,
+Krossad keramik,Tall,1,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Kåda,,6,0.0,0.0,,,,,,
+Mossa,,5,0.0,0.0,,,,,,
+Okänd,,20,0.0,0.0,,,,,,
+Okänd,Harts eller träkol,1,1.0,0.0,,,,,,
+Okänd,Stål,1,1.0,0.0,,,,,,
+Organisk beläggning,,79,0.0,0.0,,,,,,
+Organisk beläggning,Matskopa,2,1.0,0.0,,,,,,
+Organisk beläggning,Matskorpa,280,1.0,0.0,,,,,,
+Organisk beläggning,Matskorpa (INS),3,1.0,0.0,,,,,,
+Organisk beläggning,Matskorpa (SOL),17,1.0,0.0,,,,,,
+Organisk beläggning,Okänt ursprung,1,1.0,0.0,,,,,,
+Organisk beläggning,SOL-fraktion,2,1.0,0.0,,,,,,
+Organisk beläggning,organisk massa,1,1.0,0.0,,,,,,
+Organiskt material,,5,0.0,0.0,,,,,,
+Organiskt material,Bivax,1,1.0,0.0,,,,,,
+Organiskt material,Bränd markvegetation,1,1.0,0.0,,,,,,
+Organiskt material,Brända matrester,1,1.0,0.0,,,,,,
+Organiskt material,Ev. Harts,1,1.0,0.0,,,,,,
+Organiskt material,Fårlort,1,1.0,0.0,,,,,,
+Organiskt material,Harts?,1,1.0,0.0,,,,,,
+Organiskt material,Hästspillning,1,1.0,0.0,,,,,,
+Organiskt material,Jurpa,1,1.0,0.0,,,,,,
+Organiskt material,Koprolit,1,1.0,0.0,,,,,,
+Organiskt material,Textil,1,1.0,0.0,,,,,,
+Pollen,,2,0.0,0.0,,,,,,
+Sediment,,6,0.0,0.0,,,,,,
+Skal/mollusker,,1,0.0,0.0,,,,,,
+Skal/mollusker,Ostron,2,1.0,0.0,,,,,,
+Skalfragment,,14,0.0,0.0,,,,,,
+Skalfragment,Ekollon,1,1.0,0.0,,,,,,
+Skalfragment,Hassel,525,1.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Skalfragment,Hasselskal,7,1.0,0.0,,,,,,
+Skalfragment,Kottefjäll,1,1.0,0.0,,,,,,
+Skalfragment,Kottefjäll gran,1,1.0,0.0,,,,,,
+Skalfragment,Nöt,1,1.0,0.0,,,,,,
+Skalfragment,Obränd hasselnöt,1,1.0,0.0,,,,,,
+Sot/Organiskt material,,2,0.0,0.0,,,,,,
+Sot/Organiskt material,Sot i keramik,1,1.0,0.0,,,,,,
+Sot/Organiskt material,Sotig jord,1,1.0,0.0,,,,,,
+Sot/Organiskt material,Träkol,1,1.0,0.0,,,,,,
+Sotig jord,,17,0.0,0.0,,,,,,
+Stenkol,,1,0.0,0.0,,,,,,
+Svamp,Ticka,1,1.0,1.0,genus (suffix-inferred),Levisticum,Apiaceae,Apiales,,
+Tand,,20,0.0,0.0,,,,,,
+Tand,Björn,2,1.0,0.0,,,,,,
+Tand,Bäver,1,1.0,0.0,,,,,,
+Tand,Får,3,1.0,0.0,,,,,,
+Tand,Får/get,5,2.0,0.0,,,,,,
+Tand,Gris,1,1.0,0.0,,,,,,
+Tand,Gräsätare,2,1.0,0.0,,,,,,
+Tand,Hund?,1,1.0,0.0,,,,,,
+Tand,Häst,20,1.0,0.0,,,,,,
+Tand,Häst/nöt,1,2.0,0.0,,,,,,
+Tand,Hästtand,1,1.0,0.0,,,,,,
+Tand,Kalv,1,1.0,0.0,,,,,,
+Tand,Ko,1,1.0,1.0,genus (suffix-inferred),Cypripedium,Orchidaceae,Asparagales,,
+Tand,Människa,65,1.0,0.0,,,,,,
+Tand,"Människa, Maloideae",1,2.0,0.0,,,,,,
+Tand,"Människa, Tänder",1,2.0,0.0,,,,,,
+Tand,"Människa, hörntand",1,2.0,0.0,,,,,,
+Tand,Nöt,3,1.0,0.0,,,,,,
+Tand,Nötkreatur,18,1.0,0.0,,,,,,
+Tand,Obränd,1,1.0,0.0,,,,,,
+Tand,Svin,4,1.0,1.0,genus (suffix-inferred),Partenocissus,Vitaceae,Insertis Sedis,,
+Tand,Svinbete,1,1.0,0.0,,,,,,
+Tand,Tamsvin,1,1.0,0.0,,,,,,
+Torv,,17,0.0,0.0,,,,,,
+Trä,,479,0.0,0.0,,,,,,
+Trä,AL,1,1.0,0.0,,,,,,
+Trä,Al,32,1.0,0.0,,,,,,
+Trä,Alm,1,1.0,0.0,,,,,,
+Trä,Ask,13,1.0,1.0,species (common name),Fraxinus,Oleaceae,Lamiales,ask,Fraxinus excelsior
+Trä,Asp,9,1.0,1.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Trä,Barrträd,5,1.0,0.0,,,,,,
+Trä,Bjrök,1,1.0,0.0,,,,,,
+Trä,Björk,34,1.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Trä,Bok,2,1.0,1.0,species (common name),Fagus,Fagaceae,Fagales,bok,Fagus sylvatica
+Trä,Brakved,1,1.0,1.0,species (common name),Frangula,Rhamnaceae,Rosales,brakved,Frangula alnus
+Trä,Ek,78,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Trä,En,12,1.0,1.0,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis
+Trä,Fläder,1,1.0,1.0,species (common name),Sambucus,Alismataceae,Alismatales,fläder,Sambucus nigra
+Trä,Furu,1,1.0,0.0,,,,,,
+Trä,Gran,56,1.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Trä,"Gran, Barr",1,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Trä,"Gran, Granbark",1,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Trä,Hallon,1,1.0,1.0,species (common name),Rubus,Rosaceae,Rosales,hallon,Rubus idaeus
+Trä,Hassel,12,1.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Trä,Idegran,1,1.0,1.0,species (common name),Taxus,Taxaceae,Pinales,idegran,Taxus baccata
+Trä,Lind,1,1.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Trä,Lönn,6,1.0,1.0,species (common name),Acer,Acoraceae,Alismatales,lönn,Acer platanoides
+Trä,Lövträ,1,1.0,0.0,,,,,,
+Trä,Lövträd,1,1.0,0.0,,,,,,
+Trä,Maloideae,1,1.0,0.0,,,,,,
+Trä,Olvon,1,1.0,1.0,species (common name),Viburnum,Alliaceae,Asparagales,olvon,Viburnum opulus
+Trä,Salix sp,13,1.0,1.0,genus (latin),Salix,Salicaceae,Salicales,,
+Trä,Salix sp/asp,1,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Trä,Sälg,1,1.0,1.0,species (common name),Salix,Salicaceae,Salicales,sälg,Salix caprea ssp caprea
+Trä,Tall,316,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Trä,Tall/gran,1,2.0,2.0,species (common name),"Picea, Pinus",Pinaceae,Pinales,tall; gran,Pinus sylvestris var sylvestris; Picea abies ssp abies
+Trä,barrträd,2,1.0,0.0,,,,,,
+Trä/Bark/Växtdelar,,3,0.0,0.0,,,,,,
+Träkol,,9959,0.0,0.0,,,,,,
+Träkol,',2,1.0,0.0,,,,,,
+Träkol,0,1,1.0,0.0,,,,,,
+Träkol,Al,1172,1.0,0.0,,,,,,
+Träkol,"Al, Ask",1,2.0,1.0,species (common name),Fraxinus,Oleaceae,Lamiales,ask,Fraxinus excelsior
+Träkol,"Al, Asp",2,2.0,1.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Träkol,"Al, Bark",1,2.0,0.0,,,,,,
+Träkol,"Al, Björk",3,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,"Al, Ek",12,2.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,"Al, En",1,2.0,1.0,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis
+Träkol,"Al, Hassel",2,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,"Al, Lind",1,2.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Träkol,"Al, Lindbark",1,2.0,0.0,,,,,,
+Träkol,"Al, Tall",2,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Al, björk, Ek, Salix sp",1,4.0,3.0,species (common name),"Betula, Quercus, Salix","Betulaceae, Fagaceae, Salicaceae","Fagales, Salicales",ek,Quercus robur
+Träkol,"Al,alm",2,2.0,0.0,,,,,,
+Träkol,Al/Björk,1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,Al/björk,1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,Al/hassel?,1,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,Alm,56,1.0,0.0,,,,,,
+Träkol,"Alm, Hassel",1,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,Ask,348,1.0,1.0,species (common name),Fraxinus,Oleaceae,Lamiales,ask,Fraxinus excelsior
+Träkol,"Ask, Björk",1,2.0,2.0,species (common name),"Betula, Fraxinus","Betulaceae, Oleaceae","Fagales, Lamiales",ask,Fraxinus excelsior
+Träkol,"Ask, Tall",2,2.0,2.0,species (common name),"Fraxinus, Pinus","Oleaceae, Pinaceae","Lamiales, Pinales",ask; tall,Fraxinus excelsior; Pinus sylvestris var sylvestris
+Träkol,"Ask, hassel, Pomoideae, Populus sp",1,4.0,3.0,species (common name),"Corylus, Fraxinus, Populus","Corylaceae, Oleaceae, Salicaceae","Fagales, Lamiales, Salicales",ask; hassel,Fraxinus excelsior; Corylus avellana
+Träkol,"Askl, Gran",1,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,Asp,268,1.0,1.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Träkol,"Asp, Ek",1,2.0,2.0,species (common name),"Populus, Quercus","Fagaceae, Salicaceae","Fagales, Salicales",asp; ek,Populus tremula; Quercus robur
+Träkol,"Asp, Salix sp",1,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,"Asp, Tall",1,2.0,2.0,species (common name),"Pinus, Populus","Pinaceae, Salicaceae","Pinales, Salicales",asp; tall,Populus tremula; Pinus sylvestris var sylvestris
+Träkol,"Asp, rönn, Nypon",1,3.0,2.0,species (common name),"Populus, Sorbus","Rosaceae, Salicaceae","Rosales, Salicales",asp; rönn,Populus tremula; Sorbus aucuparia ssp aucuparia
+Träkol,"Asp,poppel",1,2.0,2.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Träkol,Asp/Salix sp,22,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,Asp/Salix sp?,1,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,Asp/björk,1,2.0,2.0,species (common name),"Betula, Populus","Betulaceae, Salicaceae","Fagales, Salicales",asp,Populus tremula
+Träkol,Asp/poppel,4,2.0,2.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Träkol,Asp/salix sp,1,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,Avenbok,1,1.0,1.0,species (common name),Carpinus,Corylaceae,Fagales,avenbok,Carpinus betulus
+Träkol,BJö5rk,1,1.0,0.0,,,,,,
+Träkol,Bark,1,1.0,0.0,,,,,,
+Träkol,Barrträd,63,1.0,0.0,,,,,,
+Träkol,Benved,3,1.0,1.0,species (common name),Evonymus,Celastraceae,Insertis Sedis,benved,Evonymus europaeus
+Träkol,Betula,1,1.0,1.0,genus (latin),Betula,Betulaceae,Fagales,,
+Träkol,Björk,1897,1.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,Björk bulk,1,1.0,0.0,,,,,,
+Träkol,"Björk, Al",1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,"Björk, Björknäver",2,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,"Björk, Ek",3,2.0,2.0,species (common name),"Betula, Quercus","Betulaceae, Fagaceae",Fagales,ek,Quercus robur
+Träkol,"Björk, Gran",1,2.0,2.0,species (common name),"Betula, Picea","Betulaceae, Pinaceae","Fagales, Pinales",gran,Picea abies ssp abies
+Träkol,"Björk, Gran, Tall",1,3.0,3.0,species (common name),"Betula, Picea, Pinus","Betulaceae, Pinaceae","Fagales, Pinales",gran; tall,Picea abies ssp abies; Pinus sylvestris var sylvestris
+Träkol,"Björk, Hassel",1,2.0,2.0,species (common name),"Betula, Corylus","Betulaceae, Corylaceae",Fagales,hassel,Corylus avellana
+Träkol,"Björk, Näver",1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,"Björk, Prunus sp",1,2.0,2.0,genus (suffix-inferred),"Betula, Prunus","Betulaceae, Rosaceae","Fagales, Rosales",,
+Träkol,"Björk, Tall",8,2.0,2.0,species (common name),"Betula, Pinus","Betulaceae, Pinaceae","Fagales, Pinales",tall,Pinus sylvestris var sylvestris
+Träkol,Björk/Al,1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,Björk/al,1,2.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,Björk?,3,1.0,1.0,genus (suffix-inferred),Betula,Betulaceae,Fagales,,
+Träkol,"Björkl, Gran",1,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,Björn,1,1.0,0.0,,,,,,
+Träkol,Blandmaterial,1,1.0,0.0,,,,,,
+Träkol,Bok,77,1.0,1.0,species (common name),Fagus,Fagaceae,Fagales,bok,Fagus sylvatica
+Träkol,Brakved,13,1.0,1.0,species (common name),Frangula,Rhamnaceae,Rosales,brakved,Frangula alnus
+Träkol,"Brakved, Ek",1,2.0,2.0,species (common name),"Frangula, Quercus","Fagaceae, Rhamnaceae","Fagales, Rosales",brakved; ek,Frangula alnus; Quercus robur
+Träkol,Bröd/kubbvete,2,2.0,1.0,genus (suffix-inferred),Filipendula,Rosaceae,Rosales,,
+Träkol,Bärris,4,1.0,0.0,,,,,,
+Träkol,Cerealia,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Träkol,Cerealia indet,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Träkol,Cf Pinus sp,1,1.0,1.0,genus (latin),Pinus,Pinaceae,Pinales,,
+Träkol,Cf maloideae sp,1,1.0,0.0,,,,,,
+Träkol,"EK, En",1,2.0,2.0,species (common name),"Juniperus, Quercus","Cupressaceae, Fagaceae","Fagales, Pinales",ek; en,Quercus robur; Juniperus communis ssp communis
+Träkol,Ek,1652,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,Ek bulk,1,1.0,0.0,,,,,,
+Träkol,"Ek, Al",3,2.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,"Ek, Björk",2,2.0,2.0,species (common name),"Betula, Quercus","Betulaceae, Fagaceae",Fagales,ek,Quercus robur
+Träkol,"Ek, Hassel",3,2.0,2.0,species (common name),"Corylus, Quercus","Corylaceae, Fagaceae",Fagales,ek; hassel,Quercus robur; Corylus avellana
+Träkol,"Ek, Lind",1,2.0,2.0,species (common name),"Quercus, Tilia","Fagaceae, Tiliaceae","Fagales, Malvales",ek; lind,Quercus robur; Tilia cordata
+Träkol,"Ek, Lönn",1,2.0,2.0,species (common name),"Acer, Quercus","Acoraceae, Fagaceae","Alismatales, Fagales",ek; lönn,Quercus robur; Acer platanoides
+Träkol,"Ek, Lövträd",1,2.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,"Ek, Obestämt",1,2.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,"Ek, Salix sp",1,2.0,2.0,species (common name),"Quercus, Salix","Fagaceae, Salicaceae","Fagales, Salicales",ek,Quercus robur
+Träkol,"Ek, Tall",2,2.0,2.0,species (common name),"Pinus, Quercus","Fagaceae, Pinaceae","Fagales, Pinales",ek; tall,Quercus robur; Pinus sylvestris var sylvestris
+Träkol,"Ek, Tall, Bark",1,3.0,2.0,species (common name),"Pinus, Quercus","Fagaceae, Pinaceae","Fagales, Pinales",ek; tall,Quercus robur; Pinus sylvestris var sylvestris
+Träkol,"Ek, Tall, Salix sp",1,3.0,3.0,species (common name),"Pinus, Quercus, Salix","Fagaceae, Pinaceae, Salicaceae","Fagales, Pinales, Salicales",ek; tall,Quercus robur; Pinus sylvestris var sylvestris
+Träkol,"Ek, hassel, Al, Björk",1,4.0,3.0,species (common name),"Betula, Corylus, Quercus","Betulaceae, Corylaceae, Fagaceae",Fagales,ek; hassel,Quercus robur; Corylus avellana
+Träkol,Ek?,2,1.0,1.0,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur
+Träkol,Ek?/Ask?,1,2.0,2.0,species (common name),"Fraxinus, Quercus","Fagaceae, Oleaceae","Fagales, Lamiales",ek; ask,Quercus robur; Fraxinus excelsior
+Träkol,Ekbark,1,1.0,0.0,,,,,,
+Träkol,"Ekl, Gran",2,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,Emme,1,1.0,0.0,,,,,,
+Träkol,En,171,1.0,1.0,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis
+Träkol,"En, Salix sp, hassel, Alm, brakved, ask",1,6.0,5.0,species (common name),"Corylus, Frangula, Fraxinus, Juniperus, Salix","Corylaceae, Cupressaceae, Oleaceae, Rhamnaceae, Salicaceae","Fagales, Lamiales, Pinales, Rosales, Salicales",en; hassel; brakved; ask,Juniperus communis ssp communis; Corylus avellana; Frangula alnus; Fraxinus excelsior
+Träkol,En?,1,1.0,1.0,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis
+Träkol,En?möjl gran,1,1.0,0.0,,,,,,
+Träkol,"Fågelbär, rönn, Bok, Ek",1,4.0,3.0,species (common name),"Fagus, Quercus, Sorbus","Fagaceae, Rosaceae","Fagales, Rosales",rönn; bok; ek,Sorbus aucuparia ssp aucuparia; Fagus sylvatica; Quercus robur
+Träkol,Getapel,3,1.0,1.0,species (common name),Rhamnus,Rhamnaceae,Rosales,getapel,Rhamnus catharticus
+Träkol,Gran,1039,1.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,"Gran, Bark",2,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,"Gran, Björk",1,2.0,2.0,species (common name),"Betula, Picea","Betulaceae, Pinaceae","Fagales, Pinales",gran,Picea abies ssp abies
+Träkol,"Gran, Björk, Hassel",1,3.0,3.0,species (common name),"Betula, Corylus, Picea","Betulaceae, Corylaceae, Pinaceae","Fagales, Pinales",gran; hassel,Picea abies ssp abies; Corylus avellana
+Träkol,"Gran, Ek",1,2.0,2.0,species (common name),"Picea, Quercus","Fagaceae, Pinaceae","Fagales, Pinales",gran; ek,Picea abies ssp abies; Quercus robur
+Träkol,"Gran, Tall",4,2.0,2.0,species (common name),"Picea, Pinus",Pinaceae,Pinales,gran; tall,Picea abies ssp abies; Pinus sylvestris var sylvestris
+Träkol,Gran/Tall,1,2.0,2.0,species (common name),"Picea, Pinus",Pinaceae,Pinales,gran; tall,Picea abies ssp abies; Pinus sylvestris var sylvestris
+Träkol,Gran?,1,1.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,Hagtorn,3,1.0,1.0,genus (suffix-inferred),Crataegus,Rosaceae,Rosales,,
+Träkol,Hasel,3,1.0,0.0,,,,,,
+Träkol,Hassel,1108,1.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,"Hassel, Ask",2,2.0,2.0,species (common name),"Corylus, Fraxinus","Corylaceae, Oleaceae","Fagales, Lamiales",hassel; ask,Corylus avellana; Fraxinus excelsior
+Träkol,"Hassel, Björk",2,2.0,2.0,species (common name),"Betula, Corylus","Betulaceae, Corylaceae",Fagales,hassel,Corylus avellana
+Träkol,"Hassel, Ek",2,2.0,2.0,species (common name),"Corylus, Quercus","Corylaceae, Fagaceae",Fagales,hassel; ek,Corylus avellana; Quercus robur
+Träkol,"Hassel, Lönn",1,2.0,2.0,species (common name),"Acer, Corylus","Acoraceae, Corylaceae","Alismatales, Fagales",hassel; lönn,Corylus avellana; Acer platanoides
+Träkol,"Hassel, Salix sp",1,2.0,2.0,species (common name),"Corylus, Salix","Corylaceae, Salicaceae","Fagales, Salicales",hassel,Corylus avellana
+Träkol,"Hassel, Salix sp, Populus sp",1,3.0,3.0,species (common name),"Corylus, Populus, Salix","Corylaceae, Salicaceae","Fagales, Salicales",hassel,Corylus avellana
+Träkol,"Hassel, Örtfragment",1,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,Hassel/Al,1,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,Hund,1,1.0,0.0,,,,,,
+Träkol,Hägg,1,1.0,1.0,species (common name),Prunus,Rosaceae,Rosales,hägg,Prunus padus ssp padus
+Träkol,Idegran,5,1.0,1.0,species (common name),Taxus,Taxaceae,Pinales,idegran,Taxus baccata
+Träkol,Jlvträd,1,1.0,0.0,,,,,,
+Träkol,Korn,4,1.0,0.0,,,,,,
+Träkol,Kornell,1,1.0,1.0,genus (suffix-inferred),Cornus,Cornaceae,Cornales,,
+Träkol,Lager,1,1.0,0.0,,,,,,
+Träkol,Lid,1,1.0,0.0,,,,,,
+Träkol,Lind,206,1.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Träkol,Lind?,1,1.0,1.0,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata
+Träkol,Ljung,8,1.0,1.0,species (common name),Calluna,Ericaceae,Ericales,ljung,Calluna vulgaris
+Träkol,Ljung?,1,1.0,1.0,species (common name),Calluna,Ericaceae,Ericales,ljung,Calluna vulgaris
+Träkol,Löbträd,1,1.0,0.0,,,,,,
+Träkol,Lönn,166,1.0,1.0,species (common name),Acer,Acoraceae,Alismatales,lönn,Acer platanoides
+Träkol,Lövträd,221,1.0,0.0,,,,,,
+Träkol,"Lövträd, Asp",1,2.0,1.0,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula
+Träkol,"Lövträd, Bränt ben",1,2.0,0.0,,,,,,
+Träkol,Lövträd?,1,1.0,0.0,,,,,,
+Träkol,Maloidea,1,1.0,0.0,,,,,,
+Träkol,Maloideae,81,1.0,0.0,,,,,,
+Träkol,"Maloideae, Hassel",1,2.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Träkol,"Maloideae, Svin",1,2.0,1.0,genus (suffix-inferred),Partenocissus,Vitaceae,Insertis Sedis,,
+Träkol,Maloidear,1,1.0,0.0,,,,,,
+Träkol,Matskorpa (SOL),1,1.0,0.0,,,,,,
+Träkol,Murgröna,1,1.0,1.0,species (common name),Hedera,Araliaceae,Apiales,murgröna,Hedera helix
+Träkol,Människa,2,1.0,0.0,,,,,,
+Träkol,Olvon,2,1.0,1.0,species (common name),Viburnum,Alliaceae,Asparagales,olvon,Viburnum opulus
+Träkol,"Oxel, Björk",1,2.0,2.0,species (common name),"Betula, Sorbus","Betulaceae, Rosaceae","Fagales, Rosales",oxel,Sorbus intermedia
+Träkol,"Oxel, ask, Björk",1,3.0,3.0,species (common name),"Betula, Fraxinus, Sorbus","Betulaceae, Oleaceae, Rosaceae","Fagales, Lamiales, Rosales",oxel; ask,Sorbus intermedia; Fraxinus excelsior
+Träkol,Pomoidea,1,1.0,0.0,,,,,,
+Träkol,Pomoideae,50,1.0,0.0,,,,,,
+Träkol,Populus sp,1,1.0,1.0,genus (latin),Populus,Salicaceae,Salicales,,
+Träkol,Populus sp/Salix sp,1,2.0,2.0,genus (latin),"Populus, Salix",Salicaceae,Salicales,,
+Träkol,Prunus sp,11,1.0,1.0,genus (latin),Prunus,Rosaceae,Rosales,,
+Träkol,Ros,1,1.0,0.0,,,,,,
+Träkol,Rosa sp,3,1.0,1.0,genus (latin),Rosa,Rosaceae,Rosales,,
+Träkol,Rosväxt,1,1.0,0.0,,,,,,
+Träkol,Rot,1,1.0,0.0,,,,,,
+Träkol,Rönn/Oxel,1,2.0,2.0,species (common name),Sorbus,Rosaceae,Rosales,rönn; oxel,Sorbus aucuparia ssp aucuparia; Sorbus intermedia
+Träkol,SOL,2,1.0,0.0,,,,,,
+Träkol,Salix sp,398,1.0,1.0,genus (latin),Salix,Salicaceae,Salicales,,
+Träkol,"Salix sp, Sorbus, Brakved",1,3.0,3.0,species (common name),"Frangula, Salix, Sorbus","Rhamnaceae, Rosaceae, Salicaceae","Rosales, Salicales",brakved,Frangula alnus
+Träkol,Salix sp/Asp,1,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,Salix sp/Populus,1,2.0,2.0,genus (latin),"Populus, Salix",Salicaceae,Salicales,,
+Träkol,Salix sp/Populus sp,7,2.0,2.0,genus (latin),"Populus, Salix",Salicaceae,Salicales,,
+Träkol,Salix sp/asp,3,2.0,2.0,species (common name),"Populus, Salix",Salicaceae,Salicales,asp,Populus tremula
+Träkol,Salix sp/björk,1,2.0,2.0,genus (latin),"Betula, Salix","Betulaceae, Salicaceae","Fagales, Salicales",,
+Träkol,Salix sp?,1,1.0,1.0,genus (latin),Salix,Salicaceae,Salicales,,
+Träkol,Skalkorn,6,1.0,0.0,,,,,,
+Träkol,Skogskornell,1,1.0,1.0,species (common name),Cornus,Cornaceae,Cornales,skogskornell,Cornus sanguinea
+Träkol,Skogsolvon,1,1.0,0.0,,,,,,
+Träkol,Sorbus sp,1,1.0,1.0,genus (latin),Sorbus,Rosaceae,Rosales,,
+Träkol,Spelt/emmervete,1,2.0,1.0,species (common name),Triticum,Poaceae,Poales,emmervete,Triticum turgidum
+Träkol,Sälg,1,1.0,1.0,species (common name),Salix,Salicaceae,Salicales,sälg,Salix caprea ssp caprea
+Träkol,Tall,2589,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Asp, Ek",1,3.0,3.0,species (common name),"Pinus, Populus, Quercus","Fagaceae, Pinaceae, Salicaceae","Fagales, Pinales, Salicales",tall; asp; ek,Pinus sylvestris var sylvestris; Populus tremula; Quercus robur
+Träkol,"Tall, Bark",1,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Björk",1,2.0,2.0,species (common name),"Betula, Pinus","Betulaceae, Pinaceae","Fagales, Pinales",tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Björk, Al, Bark",1,4.0,2.0,species (common name),"Betula, Pinus","Betulaceae, Pinaceae","Fagales, Pinales",tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Ek",2,2.0,2.0,species (common name),"Pinus, Quercus","Fagaceae, Pinaceae","Fagales, Pinales",tall; ek,Pinus sylvestris var sylvestris; Quercus robur
+Träkol,"Tall, Gran",1,2.0,2.0,species (common name),"Picea, Pinus",Pinaceae,Pinales,tall; gran,Pinus sylvestris var sylvestris; Picea abies ssp abies
+Träkol,"Tall, Gran, Björk",2,3.0,3.0,species (common name),"Betula, Picea, Pinus","Betulaceae, Pinaceae","Fagales, Pinales",tall; gran,Pinus sylvestris var sylvestris; Picea abies ssp abies
+Träkol,"Tall, Lövträd",1,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Maloideae",1,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Populus/Salix",1,3.0,3.0,species (common name),"Pinus, Populus, Salix","Pinaceae, Salicaceae","Pinales, Salicales",tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, Tallbark",1,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Träkol,"Tall, björk, Ek",1,3.0,3.0,species (common name),"Betula, Pinus, Quercus","Betulaceae, Fagaceae, Pinaceae","Fagales, Pinales",tall; ek,Pinus sylvestris var sylvestris; Quercus robur
+Träkol,"Tall, gran, Sälg, brakved, hasselskal",1,5.0,4.0,species (common name),"Frangula, Picea, Pinus, Salix","Pinaceae, Rhamnaceae, Salicaceae","Pinales, Rosales, Salicales",tall; gran; sälg; brakved,Pinus sylvestris var sylvestris; Picea abies ssp abies; Salix caprea ssp caprea; Frangula alnus
+Träkol,Tall/Ek,1,2.0,2.0,species (common name),"Pinus, Quercus","Fagaceae, Pinaceae","Fagales, Pinales",tall; ek,Pinus sylvestris var sylvestris; Quercus robur
+Träkol,Tall/gran,1,2.0,2.0,species (common name),"Picea, Pinus",Pinaceae,Pinales,tall; gran,Pinus sylvestris var sylvestris; Picea abies ssp abies
+Träkol,Tallbark,2,1.0,0.0,,,,,,
+Träkol,Talll,1,1.0,0.0,,,,,,
+Träkol,"Talll, Gran",3,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,"Talll, Gran, Ask",1,3.0,2.0,species (common name),"Fraxinus, Picea","Oleaceae, Pinaceae","Lamiales, Pinales",gran; ask,Picea abies ssp abies; Fraxinus excelsior
+Träkol,Tibast?,1,1.0,1.0,species (common name),Daphne,Thymelaeaceae,Malvales,tibast,Daphne mezereum
+Träkol,Try,2,1.0,0.0,,,,,,
+Träkol,Vaccinium sp,5,1.0,1.0,genus (latin),Vaccinium,Ericaceae,Ericales,,
+Träkol,Vete,2,1.0,1.0,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum
+Träkol,Vildapel,1,1.0,1.0,species (common name),Malus,Rosaceae,Rosales,vildapel,Malus sylvestris
+Träkol,Vildsvin,1,1.0,0.0,,,,,,
+Träkol,al,1,1.0,0.0,,,,,,
+Träkol,cf Acer sp,3,1.0,1.0,genus (latin),Acer,Acoraceae,Alismatales,,
+Träkol,cf Alnus sp,5,1.0,1.0,genus (latin),Alnus,Betulaceae,Fagales,,
+Träkol,cf Betula sp,1,1.0,1.0,genus (latin),Betula,Betulaceae,Fagales,,
+Träkol,cf Corylus avellana,1,1.0,0.0,,,,,,
+Träkol,cf Fraxinus sp,2,1.0,1.0,genus (latin),Fraxinus,Oleaceae,Lamiales,,
+Träkol,cf Maloideae,1,1.0,0.0,,,,,,
+Träkol,cf Picea sp,5,1.0,1.0,genus (latin),Picea,Pinaceae,Pinales,,
+Träkol,cf Pinus sp,6,1.0,1.0,genus (latin),Pinus,Pinaceae,Pinales,,
+Träkol,cf Populus sp,1,1.0,1.0,genus (latin),Populus,Salicaceae,Salicales,,
+Träkol,cf Quercus sp,7,1.0,1.0,genus (latin),Quercus,Fagaceae,Fagales,,
+Träkol,cf Salix sp,5,1.0,1.0,genus (latin),Salix,Salicaceae,Salicales,,
+Träkol,cf Tilia sp,4,1.0,1.0,genus (latin),Tilia,Tiliaceae,Malvales,,
+Träkol,cf Vaccinium sp,1,1.0,1.0,genus (latin),Vaccinium,Ericaceae,Ericales,,
+Träkol,cf pinus sp,1,1.0,1.0,genus (latin),Pinus,Pinaceae,Pinales,,
+Träkol,gran,2,1.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Träkol,ran,1,1.0,0.0,,,,,,
+Träkol,tall,1,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Växtdelar,,23,0.0,0.0,,,,,,
+Växtdelar,"Agn, Granbarr",1,2.0,0.0,,,,,,
+Växtdelar,Alknopp,1,1.0,0.0,,,,,,
+Växtdelar,Alkotte,5,1.0,0.0,,,,,,
+Växtdelar,Alkotte?,1,1.0,0.0,,,,,,
+Växtdelar,Baljfragment,1,1.0,0.0,,,,,,
+Växtdelar,Barr/kottefjäll,1,2.0,0.0,,,,,,
+Växtdelar,Basstamdelar,3,1.0,0.0,,,,,,
+Växtdelar,Björknäver,1,1.0,0.0,,,,,,
+Växtdelar,Brudberöd,1,1.0,0.0,,,,,,
+Växtdelar,Brudbröd,14,1.0,1.0,species (common name),Filipendula,Rosaceae,Rosales,brudbröd,Filipendula vulgaris
+Växtdelar,Bärris,2,1.0,0.0,,,,,,
+Växtdelar,Cerealia indet,1,1.0,1.0,genus (latin),Cerealia,Cerealia,Cerealia,,
+Växtdelar,"Cyperaceae, snöre",1,2.0,1.0,genus (latin),Cyperaceae,Cyperaceae,Poales,,
+Växtdelar,"Emmer, Hasselskal",1,2.0,0.0,,,,,,
+Växtdelar,"Enfrön, Enbark",1,2.0,0.0,,,,,,
+Växtdelar,Frökapsel,1,1.0,0.0,,,,,,
+Växtdelar,Fröskal,1,1.0,0.0,,,,,,
+Växtdelar,Förkolnad ört,1,1.0,0.0,,,,,,
+Växtdelar,Förkolnade granbarr,2,1.0,0.0,,,,,,
+Växtdelar,"Förkolnade granbarr, Grankvist",1,2.0,0.0,,,,,,
+Växtdelar,Förkolnade rottrådar,2,1.0,0.0,,,,,,
+Växtdelar,"Granbar, strå, örtdelar",1,3.0,0.0,,,,,,
+Växtdelar,Granbarr,25,1.0,0.0,,,,,,
+Växtdelar,"Granbarr, Grässtrå",1,2.0,0.0,,,,,,
+Växtdelar,"Granbarr, strå, örtdelar, rottrådar",1,4.0,0.0,,,,,,
+Växtdelar,"Granbarr, Örtstam",1,2.0,0.0,,,,,,
+Växtdelar,Granbarr/kvistspetsar,1,2.0,0.0,,,,,,
+Växtdelar,Granbarr?,2,1.0,0.0,,,,,,
+Växtdelar,Gräs,6,1.0,0.0,,,,,,
+Växtdelar,Grässtrå,6,1.0,0.0,,,,,,
+Växtdelar,Grässtrån,2,1.0,0.0,,,,,,
+Växtdelar,Halm,7,1.0,0.0,,,,,,
+Växtdelar,Halmstrå,3,1.0,0.0,,,,,,
+Växtdelar,Hassel,1,1.0,1.0,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana
+Växtdelar,Hasselnöt,3,1.0,0.0,,,,,,
+Växtdelar,Jurpa,1,1.0,0.0,,,,,,
+Växtdelar,Knopp,1,1.0,0.0,,,,,,
+Växtdelar,Knylhavre,1,1.0,1.0,species (common name),Arrhenatherum,Poaceae,Poales,knylhavre,Arrhenatherum elatius ssp elatius
+Växtdelar,"Knylhavre, stamknöl, Pärlhavre",1,3.0,2.0,species (common name),Arrhenatherum,Poaceae,Poales,knylhavre; pärlhavre,Arrhenatherum elatius ssp elatius; Arrhenatherum elatius ssp bulbosus
+Växtdelar,Kornhalm?,1,1.0,0.0,,,,,,
+Växtdelar,"Kotefjjäl, Barr",1,2.0,0.0,,,,,,
+Växtdelar,Kottefjäll,13,1.0,0.0,,,,,,
+Växtdelar,Kottefjäll Tall,1,1.0,0.0,,,,,,
+Växtdelar,Kottefjäll tall,5,1.0,0.0,,,,,,
+Växtdelar,"Kottefjäll, Gran",1,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Växtdelar,"Kottefjäll, Tall",1,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Växtdelar,"Kottefjäll, gran",8,2.0,1.0,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies
+Växtdelar,"Kottefjäll, tall",17,2.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Växtdelar,Kottefjäll. Tall,1,1.0,0.0,,,,,,
+Växtdelar,Kvist/rotfragment,1,2.0,0.0,,,,,,
+Växtdelar,Kvist/strå,1,2.0,0.0,,,,,,
+Växtdelar,Linfiber?,1,1.0,0.0,,,,,,
+Växtdelar,Makrofossil,2,1.0,0.0,,,,,,
+Växtdelar,Mossa,1,1.0,0.0,,,,,,
+Växtdelar,"Måra, Pilört",1,2.0,1.0,genus (suffix-inferred),Persicaria,Polygonaceae,Caryophyllales,,
+Växtdelar,Obränd hasselnöt,1,1.0,0.0,,,,,,
+Växtdelar,Oförkolnat material,1,1.0,0.0,,,,,,
+Växtdelar,"Palsternacka, Svinmålla (frö)",1,2.0,1.0,species (common name),Pastinaca,Apiaceae,Apiales,palsternacka,Pastinaca sativa var sativa
+Växtdelar,Pollen,2,1.0,0.0,,,,,,
+Växtdelar,Pärlhavre,1,1.0,1.0,species (common name),Arrhenatherum,Poaceae,Poales,pärlhavre,Arrhenatherum elatius ssp bulbosus
+Växtdelar,Rhizom,5,1.0,0.0,,,,,,
+Växtdelar,Rot,1,1.0,0.0,,,,,,
+Växtdelar,Rot/örtfragment,2,2.0,0.0,,,,,,
+Växtdelar,Rotfilt,1,1.0,0.0,,,,,,
+Växtdelar,Rotfilt Örtstam,1,1.0,0.0,,,,,,
+Växtdelar,"Rotfilt, förkolnad",1,2.0,0.0,,,,,,
+Växtdelar,Rotfragment,3,1.0,0.0,,,,,,
+Växtdelar,Rotknöl,4,1.0,0.0,,,,,,
+Växtdelar,"Rotknöl, brudbröd",2,2.0,1.0,species (common name),Filipendula,Rosaceae,Rosales,brudbröd,Filipendula vulgaris
+Växtdelar,Rottråd,1,1.0,0.0,,,,,,
+Växtdelar,Rottrådar,13,1.0,0.0,,,,,,
+Växtdelar,"Rottrådar, förkolnade",3,2.0,0.0,,,,,,
+Växtdelar,Rotttrådar,1,1.0,0.0,,,,,,
+Växtdelar,Stamdelar ört,1,1.0,0.0,,,,,,
+Växtdelar,Starr,1,1.0,0.0,,,,,,
+Växtdelar,Starr nöt,1,1.0,0.0,,,,,,
+Växtdelar,Starrfrukt,1,1.0,0.0,,,,,,
+Växtdelar,Strå,1,1.0,0.0,,,,,,
+Växtdelar,Strå och örtfragment,2,2.0,0.0,,,,,,
+Växtdelar,Svalörtsrot,2,1.0,0.0,,,,,,
+Växtdelar,Tall,1,1.0,1.0,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris
+Växtdelar,Tallbarr,3,1.0,0.0,,,,,,
+Växtdelar,Tallkotte,2,1.0,0.0,,,,,,
+Växtdelar,Tallkottefjäll,1,1.0,0.0,,,,,,
+Växtdelar,Textil,1,1.0,0.0,,,,,,
+Växtdelar,Torne,1,1.0,0.0,,,,,,
+Växtdelar,"Träkol, Örtfragment",1,2.0,0.0,,,,,,
+Växtdelar,Tuvull,1,1.0,1.0,species (common name),Eriophorum,Cyperaceae,Poales,tuvull,Eriophorum vaginatum
+Växtdelar,Vildapel,1,1.0,1.0,species (common name),Malus,Rosaceae,Rosales,vildapel,Malus sylvestris
+Växtdelar,"Vindruvskärna, Örtfragment",1,2.0,0.0,,,,,,
+Växtdelar,Ärta/böna,1,2.0,1.0,species (common name),Phaseolus,Fabaceae,Fabales,böna,Phaseolus vulgaris
+Växtdelar,Ört,15,1.0,0.0,,,,,,
+Växtdelar,"Ört, stjälkar förkolnad",2,2.0,0.0,,,,,,
+Växtdelar,Ört/strån,1,2.0,0.0,,,,,,
+Växtdelar,Örtdelar,1,1.0,0.0,,,,,,
+Växtdelar,"Örtdelar, strån",1,2.0,0.0,,,,,,
+Växtdelar,Örtdelar/strån,1,2.0,0.0,,,,,,
+Växtdelar,Örtfragment,22,1.0,0.0,,,,,,
+Växtdelar,"Örtfragment, förkolnade",3,2.0,0.0,,,,,,
+Växtdelar,Örtstam,30,1.0,0.0,,,,,,
+Växtdelar,Örtstam och rot,1,2.0,0.0,,,,,,
+Växtdelar,Örtstjälk,1,1.0,0.0,,,,,,
+Växtdelar,Örtstjälkar,1,1.0,0.0,,,,,,
+Växtdelar,ört,1,1.0,0.0,,,,,,
+Växtdelar,örtfragment,1,1.0,0.0,,,,,,

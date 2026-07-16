@@ -1,0 +1,9 @@
+pandas
+numpy
+openpyxl
+xlrd
+jupyterlab
+ipykernel
+psycopg2-binary
+sqlalchemy
+python-dotenv

@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# output/ except validated files
+
+output/**
+!output/author_normalization_review.csv
+!output/material_species_taxa_match_v2.csv
+
+# data
+
+data/
+comparisons/
