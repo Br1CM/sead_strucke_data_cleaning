@@ -11,17 +11,19 @@ common name / species binomial. Extracted from explore.ipynb and material_specie
 import os
 import re
 from collections import Counter
+from pathlib import Path
 
 import pandas as pd
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
-INPUT_PATH = "data/c14_master_v08.xlsx"
-TOKEN_MATCHES_PATH = "output/species_taxa_token_matches.csv"
-MATCHES_PATH = "output/material_species_taxa_matches.csv"
-MATCHES_V2_PATH = "output/material_species_taxa_match_v2.csv"
+ROOT = Path(__file__).resolve().parent.parent
+INPUT_PATH = ROOT / "data" / "c14_master_v08.xlsx"
+TOKEN_MATCHES_PATH = ROOT / "output" / "species_taxa_token_matches.csv"
+MATCHES_PATH = ROOT / "output" / "material_species_taxa_matches.csv"
+MATCHES_V2_PATH = ROOT / "output" / "material_species_taxa_match_v2.csv"
 
-load_dotenv()
+load_dotenv(ROOT / ".env")
 
 DB_HOST = os.environ["DB_HOST"]
 DB_PORT = os.environ["DB_PORT"]

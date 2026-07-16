@@ -5,11 +5,13 @@ Parses every unique raw `author` value with a heuristic normalizer targeting the
 confidently reorder rather than guessing. Extracted from explore.ipynb.
 """
 import re
+from pathlib import Path
 
 import pandas as pd
 
-EXCEL_PATH = "data/c14_master_v08.xlsx"
-OUTPUT_PATH = "output/author_normalization_review.csv"
+ROOT = Path(__file__).resolve().parent.parent
+EXCEL_PATH = ROOT / "data" / "c14_master_v08.xlsx"
+OUTPUT_PATH = ROOT / "output" / "author_normalization_review.csv"
 
 ET_AL_RE = re.compile(r'[,\s]*\(?\bm\.?\s*f\.?l\.?\)?\.?\s*$', re.I)
 RED_RE = re.compile(r'[,\s]*\(?\s*red\.?\s*\)?\.?\s*$', re.I)
