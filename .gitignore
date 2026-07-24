@@ -10,6 +10,7 @@ __pycache__/
 output/**
 !output/author_normalization_review.csv
 !output/material_species_taxa_match_v2.csv
+!output/context_type_unmatched.csv
 output/c14_master_v08_melt.xlsx
 output/c14_master_v08_melt.csv
 
