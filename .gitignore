@@ -11,8 +11,11 @@ output/**
 !output/author_normalization_review.csv
 !output/material_species_taxa_match_v2.csv
 !output/context_type_unmatched.csv
-output/c14_master_v08_melt.xlsx
-output/c14_master_v08_melt.csv
+!output/species_split_taxa_gbif_matches.csv
+!output/species/
+!output/species/manual_species_sead_taxa_matches.csv
+!output/species/plan.md
+
 
 # data
 
