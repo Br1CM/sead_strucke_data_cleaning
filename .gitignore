@@ -13,8 +13,7 @@ output/**
 !output/context_type_unmatched.csv
 !output/species_split_taxa_gbif_matches.csv
 !output/species/
-!output/species/manual_species_sead_taxa_matches.csv
-!output/species/manual_species_sead_taxa_matches_v*.csv
+!output/species/manual_species_sead_taxa_matches_v4_3.csv
 !output/species/plan.md
 
 
