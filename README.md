@@ -13,10 +13,14 @@ data/                       source spreadsheet and manual mapping/resolution CSV
 notebooks/
   explore.ipynb               first pass over the raw dataset: shape, C14/calibration
                                fields, author normalization, unique (material, species)
-                               extraction
+                               extraction, lab_no-to-tbl_dating_labs matching
   sites_id_study.ipynb        matches site_id/raa_id against sead_staging tbl_sites
   context_feature_matching.ipynb
                                approaches matching Strucke's context values to SEAD features
+  biblio_matching.ipynb        matches Strucke's (title, author, publication_year) references
+                               against sead_staging tbl_biblio: exact on normalized title, then
+                               TF-IDF/character-n-gram cosine similarity for fuzzy candidates,
+                               corroborated by author-string similarity and a magnet-title check
   c14_value_storage_exploration.ipynb
                                explores where c14_age_bp/c14_error/d13C/pMC_value/pMC_error/
                                cal_68/cal_95 could live in the sead_staging schema
@@ -50,6 +54,10 @@ output/                     generated CSVs (mostly gitignored, see below)
   material/                   material-resolution artifacts (material_counts,
                                material_counts_resolved_with_ids, new_sead_records_material)
   measurements/                new_sead_records_measurements (proposed new methods/units)
+  lab_no/                     lab_no_prefix_matches.csv - lab_no prefix to tbl_dating_labs
+                               dating_lab_id mapping, for manual review
+  biblio/                     biblio_reference_matches.csv - (title, author, year) to
+                               tbl_biblio biblio_id mapping, for manual review
   mod_dataset/                 the fully melted c14 datasets - the actual ingestion-ready output
 ```
 

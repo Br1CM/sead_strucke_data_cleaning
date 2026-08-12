@@ -7,3 +7,5 @@ ipykernel
 psycopg2-binary
 sqlalchemy
 python-dotenv
+rapidfuzz
+scikit-learn
