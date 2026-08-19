@@ -1,20 +1,9 @@
 # SEAD Strucke Data Cleaning — v1 pipeline (active)
 
-Transformation pipeline for the current dataset revision, `data/StruckeC14_Sweden_v1.csv`. This
-workspace is self-contained: it never reads from [`archive/`](../archive/) or from its own
-`output/` at runtime. Species and material taxonomy resolution happens live, every run, via
-[`shared/resolution/`](../shared/resolution/) against `sead_staging` - not by trusting a
-previously-generated CSV.
-
-## Why self-contained
-
-The old pipeline (`archive/notebooks/c14_dataset_tranformation.ipynb`) wrote its species/material
-id resolutions to `output/`, and this pipeline used to read those frozen files back in. That made
-it fragile: reproducing the pipeline from a clean checkout required someone to have previously run
-the old notebook and left its output CSVs lying around, un-tracked in git. Now the two things this
-pipeline actually depends on for resolution are code (`shared/resolution/species.py`,
-`shared/resolution/material.py`) and data (`data/manual_resolutions/`, tracked in git) - both
-reproducible from a clean checkout plus a DB connection.
+Transformation pipeline for the current dataset revision, `data/StruckeC14_Sweden_v1.csv`. Species
+and material taxonomy resolution happens live, every run, via
+[`shared/resolution/`](../shared/resolution/) against `sead_staging`. This workspace is
+self-contained.
 
 ## Structure
 
@@ -24,19 +13,11 @@ data/
   manual_resolutions/              TRACKED - the hand-curated decisions the pipeline runs on
     species_manual_resolution.csv    manual_species -> resolved_order/family/genus/species +
                                       common_name_text/language, one row per distinct species
-                                      value seen in the dataset. Professionalized copy of
-                                      archive/data/manual_species_resolved_test.csv - same
-                                      decisions, cleaned-up columns (the stale taxon_id/
-                                      common_name_id columns from the old draft were dropped;
-                                      shared.resolution.species recomputes those live instead).
+                                      value seen in the dataset.
     material_manual_resolution.csv   material -> up to 3 sead_element_N names + an optional
                                       sead_modification_type, under a real sead_record_type_id.
-                                      Professionalized copy of
-                                      archive/data/material_counts_manual_resolved.csv (fixed a
-                                      typo'd column header, otherwise unchanged).
     species_token_corrections.csv    species_split -> manual_species correction table (typos
                                       fixed, duplicates merged, uncertain calls marked `?`).
-                                      Copy of archive/data/species_split_counts_in_original_manual_v4.csv.
 notebooks/
   c14_v1_dataset_transformation.ipynb   the pipeline: load v1 csv -> rename columns -> split/melt
                                          species -> reconcile v1's species tokens against
@@ -61,9 +42,11 @@ output/                            write-only export target (gitignored) - never
 
 ## Scope
 
-This pipeline stops at the material-element melt. The old pipeline's third melt (one measured
-value per row, with its own SEAD `method_id`) hasn't been ported to v1 yet - that's future work,
-tracked separately from this reorganization.
+The pipeline aims to tackle a problem that, although possible to solve through shapeshifter, would require taking care splitting values and manually resolving certain types of species, which could become a painful task to do through shapeshifter.
+
+This is a faster way as of today for me to implement my knowledge. For example, the process of melting the rows is possible thanks to the Unnest feature in ShapeShifter, but for the process of melting species -> mapping to a manual resolution (requires already to have a mapping dict) -> re-melt, this is a faster path for implementation on my side.
+
+On the journey to resolve this columns, I have tried to reconciliate the data to that of SEAD (for species and materials).  This will be done in ShapeShifter as part of the authority service needed to ensure data quality, but worth having it as there is connections between taxons and common_names to be done in a near future.
 
 ## Setup
 
