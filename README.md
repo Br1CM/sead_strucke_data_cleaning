@@ -1,69 +1,23 @@
 # SEAD Strucke Data Cleaning
 
-Exploratory and transformation work on the Strucke dataset (`c14_master_v08.xlsx`) ahead of its
+Exploratory and transformation work on the Strucke radiocarbon-dating dataset ahead of its
 ingestion into the [SEAD](https://www.sead.se/) database. The goal is to understand the shape and
 quality of the dataset, tie its values back to what already exists in the `sead_staging` database
 (taxonomy, materials, dating methods, sites, authors), and produce a fully "tidy" long-format
 export - one row per fact - ready for ingestion.
 
-## Structure
+A second revision of the raw dataset (`StruckeC14_Sweden_v1.csv`) superseded the original
+(`c14_master_v08.xlsx`), so the repo is split into three spaces:
 
-```
-data/                       source spreadsheet and manual mapping/resolution CSVs (not tracked in git)
-notebooks/
-  explore.ipynb               first pass over the raw dataset: shape, C14/calibration
-                               fields, author normalization, unique (material, species)
-                               extraction, lab_no-to-tbl_dating_labs matching
-  sites_id_study.ipynb        matches site_id/raa_id against sead_staging tbl_sites
-  context_feature_matching.ipynb
-                               approaches matching Strucke's context values to SEAD features
-  biblio_matching.ipynb        matches Strucke's (title, author, publication_year) references
-                               against sead_staging tbl_biblio: exact on normalized title, then
-                               TF-IDF/character-n-gram cosine similarity for fuzzy candidates,
-                               corroborated by author-string similarity and a magnet-title check
-  c14_value_storage_exploration.ipynb
-                               explores where c14_age_bp/c14_error/d13C/pMC_value/pMC_error/
-                               cal_68/cal_95 could live in the sead_staging schema
-  material_species_taxa_matching.ipynb
-                               matches the dataset's (material, species) tuples against the
-                               sead_staging taxa tables
-  species_study.ipynb          splits/melts/counts the species column, then matches each
-                               split value against SEAD's taxonomy + GBIF
-  species_split_for_study_etl.ipynb
-                               takes the manually-corrected species mapping and resolves
-                               real-or-new SEAD taxon_id/common_name_id for each one
-                               (author_id-aware: only reuses a SEAD taxon whose author_id
-                               is NULL, otherwise proposes a fresh one)
-  material_counts.ipynb        counts unique raw `material` values
-  c14_dataset_tranformation.ipynb
-                               the main pipeline: melts the resolved species taxonomy onto
-                               c14_master_v08.xlsx (one species per row), resolves and melts
-                               material elements/modifications (one material element per
-                               row), then resolves and melts the measured-value columns
-                               (one measured value per row, each with its own SEAD
-                               method_id) - every transformation builds on the last, so a
-                               single row always identifies one species + one material
-                               element + one measured value
-scripts/                    standalone scripts that reproduce specific notebook outputs
-  build_author_normalization_review.py
-  build_material_species_taxa_match_v2.py
-output/                     generated CSVs (mostly gitignored, see below)
-  species/                    species-resolution artifacts (manual_species_count,
-                               manual_species_taxa_gbif_matches, manual_species_sead_taxa_matches,
-                               new_sead_records, plan.md)
-  material/                   material-resolution artifacts (material_counts,
-                               material_counts_resolved_with_ids, new_sead_records_material)
-  measurements/                new_sead_records_measurements (proposed new methods/units)
-  lab_no/                     lab_no_prefix_matches.csv - lab_no prefix to tbl_dating_labs
-                               dating_lab_id mapping, for manual review
-  biblio/                     biblio_reference_matches.csv - (title, author, year) to
-                               tbl_biblio biblio_id mapping, for manual review
-  mod_dataset/                 the fully melted c14 datasets - the actual ingestion-ready output
-```
+- **[`current/`](current/)** - the active pipeline, targeting `StruckeC14_Sweden_v1.csv`.
+  Self-contained: it never reads from `archive/` or from its own `output/` at runtime. Start here.
+- **[`archive/`](archive/)** - the complete, frozen v08 pipeline, preserved for reference. Not
+  maintained going forward, but fully reproducible from a clean checkout if you need to go back to it.
+- **[`shared/`](shared/)** - dataset-agnostic code and notebooks used by (or usable by) both:
+  the SEAD id-resolution functions `current/`'s pipeline calls live, plus a DB-schema-exploration
+  notebook that was never tied to either raw file.
 
-Outputs are versioned rather than overwritten: filenames carry the manual-mapping revision they
-were built from (e.g. `_v4`), and re-running a notebook against an unchanged revision appends a
-numeric suffix (`_2`, `_3`, ...) instead of clobbering a previous run.
+Each has its own README with the detail specific to that space.
 
 ## Setup
 
@@ -72,17 +26,7 @@ pip install -r requirements.txt
 cp .env.example .env   # fill in your sead_staging DB credentials
 ```
 
-Notebooks are meant to be run from within `notebooks/` (Jupyter's default working directory); the
-scripts in `scripts/` can be run from anywhere.
-
-## Outputs
-
-Everything under `output/` is generated by the notebooks/scripts and is gitignored by default,
-since most of it is intermediate or scratch. Explicitly tracked (as of now):
-
-- `output/author_normalization_review.csv`
-- `output/material_species_taxa_match_v2.csv`
-- `output/context_type_unmatched.csv`
-- `output/species/manual_species_sead_taxa_matches_v*.csv` (only the latest revision stays
-  un-ignored at a time - see `.gitignore`)
-- `output/species/plan.md`
+`.env` and `requirements.txt` are shared by every space and live here at the repo root. Notebooks
+are meant to be run from within their own `notebooks/` folder (Jupyter's default working
+directory) - see `current/README.md` / `archive/README.md` for the exact relative paths that
+implies.

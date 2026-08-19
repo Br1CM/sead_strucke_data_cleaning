@@ -5,19 +5,24 @@ __pycache__/
 .ipynb_checkpoints/
 .claude/
 
-# output/ except validated files
+# archive/ (frozen v08 pipeline) - output/ except validated files
 
-output/**
-!output/author_normalization_review.csv
-!output/material_species_taxa_match_v2.csv
-!output/context_type_unmatched.csv
-!output/species_split_taxa_gbif_matches.csv
-!output/species/
-!output/species/manual_species_sead_taxa_matches_v4_3.csv
-!output/species/plan.md
+archive/output/**
+!archive/output/author_normalization_review.csv
+!archive/output/material_species_taxa_match_v2.csv
+!archive/output/context_type_unmatched.csv
+!archive/output/species_split_taxa_gbif_matches.csv
+!archive/output/species/
+!archive/output/species/manual_species_sead_taxa_matches_v4_3.csv
+!archive/output/species/plan.md
 
+# archive/ - raw dataset + manual/version-history CSVs, kept locally only
 
-# data
+archive/data/
+archive/comparisons/
 
-data/
-comparisons/
+# current/ (active v1 pipeline) - raw dataset stays local, manual_resolutions/ is the real
+# tracked pipeline input; output/ is a write-only export target, never read back in
+
+current/data/StruckeC14_Sweden_v1.csv
+current/output/**

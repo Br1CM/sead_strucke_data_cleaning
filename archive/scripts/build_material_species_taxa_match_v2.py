@@ -23,7 +23,8 @@ TOKEN_MATCHES_PATH = ROOT / "output" / "species_taxa_token_matches.csv"
 MATCHES_PATH = ROOT / "output" / "material_species_taxa_matches.csv"
 MATCHES_V2_PATH = ROOT / "output" / "material_species_taxa_match_v2.csv"
 
-load_dotenv(ROOT / ".env")
+# .env lives at the true repo root, one level above this archive/ workspace.
+load_dotenv(ROOT.parent / ".env")
 
 DB_HOST = os.environ["DB_HOST"]
 DB_PORT = os.environ["DB_PORT"]

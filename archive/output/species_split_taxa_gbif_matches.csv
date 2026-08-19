@@ -1,0 +1,412 @@
+species_split,match_level,genus,family,order,sead_common_name,sead_species_name,kingdom,gbif_usage_key,gbif_canonical_name,gbif_rank,gbif_match_type,gbif_confidence,gbif_url,species_split_english
+lind,species (common name),Tilia,Tiliaceae,Malvales,lind,Tilia cordata,Plantae,3152047,Tilia cordata,SPECIES,EXACT,99,https://www.gbif.org/species/3152047,Linden
+gran,species (common name),Picea,Pinaceae,Pinales,gran,Picea abies ssp abies,Plantae,7306267,Picea abies abies,SUBSPECIES,EXACT,100,https://www.gbif.org/species/7306267,
+hassel,species (common name),Corylus,Corylaceae,Fagales,hassel,Corylus avellana,Plantae,2875979,Corylus avellana,SPECIES,EXACT,99,https://www.gbif.org/species/2875979,Barcelona-nuts
+al,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+salix sp,genus (latin),Salix,Salicaceae,Salicales,,,Plantae,3039576,Salix,GENUS,EXACT,95,https://www.gbif.org/species/3039576,Sallow
+björk,genus (suffix-inferred),Betula,Betulaceae,Fagales,,,Plantae,2875008,Betula,GENUS,HIGHERRANK,95,https://www.gbif.org/species/2875008,Birch
+ek,species (common name),Quercus,Fagaceae,Fagales,ek,Quercus robur,Plantae,2878688,Quercus robur,SPECIES,EXACT,99,https://www.gbif.org/species/2878688,Common Oak
+får,animal (common name),,,,får,Ovis aries,Animalia,2441110,Ovis aries,SPECIES,EXACT,99,https://www.gbif.org/species/2441110,Domestic Sheep
+get,animal (common name),,,,get,Capra hircus,Animalia,2441056,Capra hircus,SPECIES,EXACT,100,https://www.gbif.org/species/2441056,Billy Goat
+snärjmåra,species (common name),Galium,Rubiaceae,Gentianales,snärjmåra,Galium aparine var aparine,Plantae,7474788,Galium aparine aparine,VARIETY,EXACT,100,https://www.gbif.org/species/7474788,
+havre,species (common name),Avena,Poaceae,Poales,havre,Avena sativa var sativa,Plantae,7432992,Avena sativa sativa,VARIETY,EXACT,100,https://www.gbif.org/species/7432992,
+asp,species (common name),Populus,Salicaceae,Salicales,asp,Populus tremula,Plantae,3040249,Populus tremula,SPECIES,EXACT,100,https://www.gbif.org/species/3040249,Aspen
+hordeum,genus (latin),Hordeum,Poaceae,Poales,,,Plantae,2706050,Hordeum,GENUS,EXACT,96,https://www.gbif.org/species/2706050,Barley
+tall,species (common name),Pinus,Pinaceae,Pinales,tall,Pinus sylvestris var sylvestris,Plantae,7230693,Pinus sylvestris sylvestris,VARIETY,EXACT,100,https://www.gbif.org/species/7230693,Baltic pine
+örtstam,,,,,,,,,,,,,,
+sol,,,,,,,,,,,,,,
+människa,animal (common name),,,,människa,Homo sapiens,Animalia,2436436,Homo sapiens,SPECIES,EXACT,100,https://www.gbif.org/species/2436436,Human
+maloideae,,,,,,,,,,,,,,
+däggdjur,,,,,,,,,,,,,,
+korn,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+ask,species (common name),Fraxinus,Oleaceae,Lamiales,ask,Fraxinus excelsior,Plantae,3172358,Fraxinus excelsior,SPECIES,EXACT,99,https://www.gbif.org/species/3172358,Ash
+matskorpa,,,,,,,,,,,,,,
+kronhjort,animal (common name),,,,kronhjort,Cervus elaphus,Animalia,2440958,Cervus elaphus,SPECIES,EXACT,100,https://www.gbif.org/species/2440958,Barbary Red Deer (barbarus)
+älg,animal (common name),,,,älg,Alces alces,Animalia,2440940,Alces alces,SPECIES,EXACT,100,https://www.gbif.org/species/2440940,Alce
+vildsvin,animal (common name),,,,vildsvin,Sus scrofa,Animalia,7705930,Sus scrofa,SPECIES,EXACT,100,https://www.gbif.org/species/7705930,Boar
+hjorthår,,,,,,,,,,,,,,
+vete,species (common name),Triticum,Poaceae,Poales,vete,Triticum aestivum,Plantae,7795888,Triticum aestivum,SPECIES,EXACT,99,https://www.gbif.org/species/7795888,Bread Wheat
+äpple,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+råg,species (common name),Secale,Poaceae,Poales,råg,Secale cereale,Plantae,2705966,Secale cereale,SPECIES,EXACT,99,https://www.gbif.org/species/2705966,Cereal Rye
+speltvete,species (common name),Triticum,Poaceae,Poales,speltvete,Triticum spelta,Plantae,2706402,Triticum spelta,SPECIES,EXACT,100,https://www.gbif.org/species/2706402,Spelt
+cerealia indet,genus (latin),Cerealia,Cerealia,Cerealia,,,Plantae,6,Plantae,KINGDOM,HIGHERRANK,99,https://www.gbif.org/species/6,Plants
+brödvete,,,,,,,,,,,,,,
+bark,,,,,,,,,,,,,,
+bok,species (common name),Fagus,Fagaceae,Fagales,bok,Fagus sylvatica,Plantae,2882316,Fagus sylvatica,SPECIES,EXACT,100,https://www.gbif.org/species/2882316,Beech
+skalkorn,,,,,,,,,,,,,,
+naket korn,,,,,,,,,,,,,,
+bröd- kubbvete,,,,,,,,,,,,,,
+ekollon,,,,,,,,,,,,,,
+hagtorn,genus (suffix-inferred),Crataegus,Rosaceae,Rosales,,,Plantae,3013395,Crataegus,GENUS,EXACT,96,https://www.gbif.org/species/3013395,Haw
+en,species (common name),Juniperus,Cupressaceae,Pinales,en,Juniperus communis ssp communis,Plantae,6319348,Juniperus communis communis,SUBSPECIES,EXACT,100,https://www.gbif.org/species/6319348,Common Juniper
+naket,,,,,,,,,,,,,,
+spelt,,,,,,,,,,,,,,
+emmer,,,,,,,,,,,,,,
+sälg,species (common name),Salix,Salicaceae,Salicales,sälg,Salix caprea ssp caprea,Plantae,7544926,Salix caprea caprea,SUBSPECIES,EXACT,100,https://www.gbif.org/species/7544926,
+lönn,species (common name),Acer,Acoraceae,Alismatales,lönn,Acer platanoides,Plantae,3189846,Acer platanoides,SPECIES,EXACT,100,https://www.gbif.org/species/3189846,Norway Maple
+lövträd,,,,,,,,,,,,,,
+häst,animal (common name),,,,häst,Equus caballus,Animalia,2440886,Equus caballus,SPECIES,EXACT,100,https://www.gbif.org/species/2440886,Alberta Mountain Horse
+hordeum vulgare,,,,,,,,,,,,,,
+gräsätare,,,,,,,,,,,,,,
+näver,,,,,,,,,,,,,,
+cerealia sp,genus (latin),Cerealia,Cerealia,Cerealia,,,Plantae,6,Plantae,KINGDOM,HIGHERRANK,99,https://www.gbif.org/species/6,Plants
+bröd,,,,,,,,,,,,,,
+skalvete,,,,,,,,,,,,,,
+kottefjäll tall,,,,,,,,,,,,,,
+nötkreatur,animal (common name),,,,nötkreatur,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+björknäver,,,,,,,,,,,,,,
+förkolnade rottrådar,,,,,,,,,,,,,,
+linfrö,,,,,,,,,,,,,,
+starr,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+lin,species (common name),Linum,Linaceae,Malpighiales,lin,Linum usitatissimum,Plantae,2873861,Linum usitatissimum,SPECIES,EXACT,99,https://www.gbif.org/species/2873861,Common Flax
+pomoideae,,,,,,,,,,,,,,
+svinmålla,species (common name),Chenopodium,Chenopodiaceae,Caryophyllales,svinmålla,Chenopodium album var album,Plantae,7219474,Chenopodium album album,VARIETY,EXACT,100,https://www.gbif.org/species/7219474,Lambsquarters
+revormstörel,species (common name),Euphorbia,Euphorbiaceae,Malpighiales,revormstörel,Euphorbia helioscopia,Plantae,3066367,Euphorbia helioscopia,SPECIES,EXACT,99,https://www.gbif.org/species/3066367,Madwoman's Milk
+tallbark,,,,,,,,,,,,,,
+granbarr,,,,,,,,,,,,,,
+enbär,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+bärris,,,,,,,,,,,,,,
+alm,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+hallon,species (common name),Rubus,Rosaceae,Rosales,hallon,Rubus idaeus,Plantae,2993094,Rubus idaeus,SPECIES,EXACT,99,https://www.gbif.org/species/2993094,American Red Raspberry
+männinska,animal (common name),,,,männinska,Homo sapiens,Animalia,2436436,Homo sapiens,SPECIES,EXACT,100,https://www.gbif.org/species/2436436,Human
+prunus sp,genus (latin),Prunus,Rosaceae,Rosales,,,Plantae,3020559,Prunus,GENUS,HIGHERRANK,95,https://www.gbif.org/species/3020559,"Almond, Cherry, Plum"
+mjölon,species (common name),Arctostaphylos,Ericaceae,Ericales,mjölon,Arctostaphylos uva-ursi,Plantae,2882580,Arctostaphylos uva-ursi,SPECIES,EXACT,100,https://www.gbif.org/species/2882580,Bear-grape
+askl,,,,,,,,,,,,,,
+alkotte,,,,,,,,,,,,,,
+cereralia,,,,,,,,,,,,,,
+småsnärja,,,,,,,,,,,,,,
+vaccinium sp,genus (latin),Vaccinium,Ericaceae,Ericales,,,Plantae,2882813,Vaccinium,GENUS,EXACT,96,https://www.gbif.org/species/2882813,Bilberries
+cf quercus sp,genus (latin),Quercus,Fagaceae,Fagales,,,Plantae,2877951,Quercus,GENUS,EXACT,96,https://www.gbif.org/species/2877951,Acorn
+barrträd,,,,,,,,,,,,,,
+ört,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+fårtand,,,,,,,,,,,,,,
+cerealia,genus (latin),Cerealia,Cerealia,Cerealia,,,Plantae,6,Plantae,KINGDOM,HIGHERRANK,99,https://www.gbif.org/species/6,Plants
+läder,,,,,,,,,,,,,,
+pomoidea,,,,,,,,,,,,,,
+halmstrå,,,,,,,,,,,,,,
+kottefjäll,,,,,,,,,,,,,,
+kubbvete,,,,,,,,,,,,,,
+hasselnöt,,,,,,,,,,,,,,
+säd,,,,,,,,,,,,,,
+cf alnus sp,genus (latin),Alnus,Betulaceae,Fagales,,,Plantae,2876099,Alnus,GENUS,EXACT,95,https://www.gbif.org/species/2876099,Alder
+populus sp,genus (latin),Populus,Salicaceae,Salicales,,,Plantae,3040183,Populus,GENUS,EXACT,96,https://www.gbif.org/species/3040183,"Aspen, Cottonwood, Poplar"
+knylhavre,species (common name),Arrhenatherum,Poaceae,Poales,knylhavre,Arrhenatherum elatius ssp elatius,Plantae,9781113,Arrhenatherum elatius elatius,SUBSPECIES,EXACT,100,https://www.gbif.org/species/9781113,False Oat-grass
+stamknöl,,,,,,,,,,,,,,
+pärlhavre,species (common name),Arrhenatherum,Poaceae,Poales,pärlhavre,Arrhenatherum elatius ssp bulbosus,Plantae,7987633,Arrhenatherum elatius bulbosum,SUBSPECIES,FUZZY,96,https://www.gbif.org/species/7987633,Tall Oatgrass
+tibast,species (common name),Daphne,Thymelaeaceae,Malvales,tibast,Daphne mezereum,Plantae,5420852,Daphne mezereum,SPECIES,EXACT,99,https://www.gbif.org/species/5420852,February Daphne
+olvon,species (common name),Viburnum,Alliaceae,Asparagales,olvon,Viburnum opulus,Plantae,2888605,Viburnum opulus,SPECIES,EXACT,100,https://www.gbif.org/species/2888605,Crampbark
+cerealia idet,,,,,,,,,,,,,,
+poaceae indet,genus (latin),Poaceae,Poaceae,Poales,,,Plantae,3073,Poaceae,FAMILY,EXACT,96,https://www.gbif.org/species/3073,Cereal
+blandmaterial,,,,,,,,,,,,,,
+brakved,species (common name),Frangula,Rhamnaceae,Rosales,brakved,Frangula alnus,Plantae,3039454,Frangula alnus,SPECIES,EXACT,100,https://www.gbif.org/species/3039454,Alder Buckthorn
+ekbark,,,,,,,,,,,,,,
+cf tilia sp,genus (latin),Tilia,Tiliaceae,Malvales,,,Plantae,3152041,Tilia,GENUS,EXACT,96,https://www.gbif.org/species/3152041,Basswood
+triticum vulgare,,,,,,,,,,,,,,
+triticum monococcum,,,,,,,,,,,,,,
+cf picea sp,genus (latin),Picea,Pinaceae,Pinales,,,Plantae,7606064,Picea,GENUS,EXACT,95,https://www.gbif.org/species/7606064,Spruce
+nöt,animal (common name),,,,nöt,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+örtfragment,,,,,,,,,,,,,,
+svin,animal (common name),,,,svin,Sus scrofa domesticus,Animalia,11374585,Sus scrofa domesticus,SUBSPECIES,EXACT,99,https://www.gbif.org/species/11374585,Domestic Pig
+hund,animal (common name),,,,hund,Canis lupus familiaris,Animalia,6164210,Canis lupus familiaris,SUBSPECIES,EXACT,100,https://www.gbif.org/species/6164210,Domestic Dog
+tågvirke,,,,,,,,,,,,,,
+hovdjur,,,,,,,,,,,,,,
+vikare,animal (common name),,,,vikare,Pusa hispida,Animalia,5219369,Pusa hispida,SPECIES,EXACT,100,https://www.gbif.org/species/5219369,Arctic Ringed Seal
+uroxe,animal (common name),,,,uroxe,Bos primigenius,Animalia,2441024,Bos primigenius,SPECIES,EXACT,100,https://www.gbif.org/species/2441024,Auroch
+bäver,animal (common name),,,,bäver,Castor fiber,Animalia,4409131,Castor fiber,SPECIES,EXACT,100,https://www.gbif.org/species/4409131,Beaver
+grässtrå,,,,,,,,,,,,,,
+gnagare,animal (order),,,Rodentia,gnagare,,Animalia,1459,Rodentia,ORDER,EXACT,96,https://www.gbif.org/species/1459,Rodent
+rottrådar,,,,,,,,,,,,,,
+rådjur,animal (common name),,,,rådjur,Capreolus capreolus,Animalia,5220126,Capreolus capreolus,SPECIES,EXACT,100,https://www.gbif.org/species/5220126,Corzo
+gris,animal (common name),,,,gris,Sus scrofa domesticus,Animalia,11374585,Sus scrofa domesticus,SUBSPECIES,EXACT,99,https://www.gbif.org/species/11374585,Domestic Pig
+kärrsköldpadda,animal (common name),,,,kärrsköldpadda,Emys orbicularis,Animalia,8909809,Emys orbicularis,SPECIES,EXACT,100,https://www.gbif.org/species/8909809,European Pond Terrapin
+björn,animal (common name),,,,björn,Ursus arctos,Animalia,2433433,Ursus arctos,SPECIES,EXACT,100,https://www.gbif.org/species/2433433,Brown Bear
+tallkotte,,,,,,,,,,,,,,
+ticka,genus (suffix-inferred),Levisticum,Apiaceae,Apiales,,,Plantae,5371771,Levisticum,GENUS,EXACT,96,https://www.gbif.org/species/5371771,Lovage
+stort hovdjur,,,,,,,,,,,,,,
+vicker,genus (suffix-inferred),Vicia,Fabaceae,Fabales,,,Plantae,2974751,Vicia,GENUS,EXACT,96,https://www.gbif.org/species/2974751,Vetch
+dinkel,,,,,,,,,,,,,,
+fågel,,,,,,,,,,,,,,
+ljung,species (common name),Calluna,Ericaceae,Ericales,ljung,Calluna vulgaris,Plantae,2882482,Calluna vulgaris,SPECIES,EXACT,99,https://www.gbif.org/species/2882482,Common Heather
+hästsko,,,,,,,,,,,,,,
+säl,animal (family),,Phocidae,,säl,,Animalia,5310,Phocidae,FAMILY,EXACT,96,https://www.gbif.org/species/5310,Crawling Seals
+emmervete,species (common name),Triticum,Poaceae,Poales,emmervete,Triticum turgidum,Plantae,2706406,Triticum turgidum,SPECIES,EXACT,99,https://www.gbif.org/species/2706406,Rivet Wheat
+organisk massa,,,,,,,,,,,,,,
+gräs,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+alkottar,,,,,,,,,,,,,,
+crerealia indet,,,,,,,,,,,,,,
+gråärt,,,,,,,,,,,,,,
+bränd markvegetation,,,,,,,,,,,,,,
+gädda,animal (common name),,,,gädda,Esox lucius,Animalia,2346633,Esox lucius,SPECIES,EXACT,100,https://www.gbif.org/species/2346633,American Pike
+rotfilt,,,,,,,,,,,,,,
+förkolnad,,,,,,,,,,,,,,
+lövträ,,,,,,,,,,,,,,
+cf corylus avellana,,,,,,,,,,,,,,
+korgblommiga växter,,,,,,,,,,,,,,
+katt,animal (common name),,,,katt,Felis catus,Animalia,2435035,Felis catus,SPECIES,EXACT,100,https://www.gbif.org/species/2435035,Alley Cat
+getapel,species (common name),Rhamnus,Rhamnaceae,Rosales,getapel,Rhamnus catharticus,Plantae,3039491,Rhamnus cathartica,SPECIES,FUZZY,97,https://www.gbif.org/species/3039491,Buckthorn
+tamsvin,animal (common name),,,,tamsvin,Sus scrofa domesticus,Animalia,11374585,Sus scrofa domesticus,SUBSPECIES,EXACT,99,https://www.gbif.org/species/11374585,Domestic Pig
+ospec.,,,,,,,,,,,,,,
+hjärnsubstans,,,,,,,,,,,,,,
+maloidea,,,,,,,,,,,,,,
+hasselskal,,,,,,,,,,,,,,
+ran,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+murgröna,species (common name),Hedera,Araliaceae,Apiales,murgröna,Hedera helix,Plantae,8351737,Hedera helix,SPECIES,EXACT,99,https://www.gbif.org/species/8351737,Common Ivy
+sot i keramik,,,,,,,,,,,,,,
+ärta,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+böna,species (common name),Phaseolus,Fabaceae,Fabales,böna,Phaseolus vulgaris,Plantae,5350452,Phaseolus vulgaris,SPECIES,EXACT,99,https://www.gbif.org/species/5350452,Bean
+fisk,,,,,,,,,,,,,,
+delfin,animal (family),,Delphinidae,,delfin,,Animalia,5314,Delphinidae,FAMILY,EXACT,96,https://www.gbif.org/species/5314,Dolphin
+hjort,animal (common name),,,,hjort,Cervus elaphus,Animalia,2440958,Cervus elaphus,SPECIES,EXACT,100,https://www.gbif.org/species/2440958,Barbary Red Deer (barbarus)
+rosväxt,,,,,,,,,,,,,,
+harts,,,,,,,,,,,,,,
+cf pinus sp,genus (latin),Pinus,Pinaceae,Pinales,,,Plantae,2684241,Pinus,GENUS,EXACT,96,https://www.gbif.org/species/2684241,Deal
+sädeskorn,,,,,,,,,,,,,,
+cf acer sp,genus (latin),Acer,Acoraceae,Alismatales,,,Plantae,3189834,Acer,GENUS,HIGHERRANK,95,https://www.gbif.org/species/3189834,Maple
+cerelia indet,,,,,,,,,,,,,,
+jurpa,,,,,,,,,,,,,,
+gråsäl,animal (common name),,,,gråsäl,Halichoerus grypus,Animalia,2434806,Halichoerus grypus,SPECIES,EXACT,100,https://www.gbif.org/species/2434806,Atlantic Gray Seal
+brudbröd,species (common name),Filipendula,Rosaceae,Rosales,brudbröd,Filipendula vulgaris,Plantae,2988069,Filipendula vulgaris,SPECIES,EXACT,99,https://www.gbif.org/species/2988069,Dropwort
+lager,,,,,,,,,,,,,,
+ev. harts,,,,,,,,,,,,,,
+cf maloideae,,,,,,,,,,,,,,
+cf maloideae sp,,,,,,,,,,,,,,
+cf vaccinium sp,genus (latin),Vaccinium,Ericaceae,Ericales,,,Plantae,2882813,Vaccinium,GENUS,EXACT,96,https://www.gbif.org/species/2882813,Bilberries
+emme,,,,,,,,,,,,,,
+nate,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+vattenklöver,species (common name),Menyanthes,Menyanthaceae,Asterales,vattenklöver,Menyanthes trifoliata,Plantae,5341511,Menyanthes trifoliata,SPECIES,EXACT,100,https://www.gbif.org/species/5341511,Bog-bean
+najet korn,,,,,,,,,,,,,,
+hasel,,,,,,,,,,,,,,
+grönlandssäl,animal (common name),,,,grönlandssäl,Pagophilus groenlandicus,Animalia,2434801,Pagophilus groenlandicus,SPECIES,EXACT,100,https://www.gbif.org/species/2434801,Foca Pia
+terrest,,,,,,,,,,,,,,
+spelt- emmervete,,,,,,,,,,,,,,
+trampört,genus (suffix-inferred),Polygonum,Polygonaceae,Caryophyllales,,,Plantae,2889077,Polygonum,GENUS,HIGHERRANK,95,https://www.gbif.org/species/2889077,Knotgrass
+pilört,genus (suffix-inferred),Persicaria,Polygonaceae,Caryophyllales,,,Plantae,6390748,Persicaria,GENUS,EXACT,95,https://www.gbif.org/species/6390748,Knotweed
+spel,,,,,,,,,,,,,,
+talll,,,,,,,,,,,,,,
+skogsolvon,,,,,,,,,,,,,,
+poppel,genus (suffix-inferred),Populus,Salicaceae,Salicales,,,Plantae,3040183,Populus,GENUS,EXACT,96,https://www.gbif.org/species/3040183,"Aspen, Cottonwood, Poplar"
+enmöjl gran,,,,,,,,,,,,,,
+betula,genus (latin),Betula,Betulaceae,Fagales,,,Plantae,2875008,Betula,GENUS,HIGHERRANK,95,https://www.gbif.org/species/2875008,Birch
+svalörtsrot,,,,,,,,,,,,,,
+try,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+oxel,species (common name),Sorbus,Rosaceae,Rosales,oxel,Sorbus intermedia,Plantae,5015,Rosaceae,FAMILY,HIGHERRANK,99,https://www.gbif.org/species/5015,Rose Family
+furu,,,,,,,,,,,,,,
+benved,species (common name),Evonymus,Celastraceae,Insertis Sedis,benved,Evonymus europaeus,Plantae,7403009,Evonymus europaeus,SPECIES,EXACT,100,https://www.gbif.org/species/7403009,
+tandrot,species (common name),Cardamine,Brassicaceae,Brassicales,tandrot,Cardamine bulbifera,Plantae,3045931,Cardamine bulbifera,SPECIES,EXACT,99,https://www.gbif.org/species/3045931,Coralroot
+ospec,,,,,,,,,,,,,,
+kottefjäll. tall,,,,,,,,,,,,,,
+idegran,species (common name),Taxus,Taxaceae,Pinales,idegran,Taxus baccata,Plantae,5284517,Taxus baccata,SPECIES,EXACT,99,https://www.gbif.org/species/5284517,Canada Yew
+hirs,species (common name),Panicum,Poaceae,Poales,hirs,Panicum miliaceum,Plantae,2705090,Panicum miliaceum,SPECIES,EXACT,99,https://www.gbif.org/species/2705090,Brown Millet
+tallbarr,,,,,,,,,,,,,,
+ros,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+kvist,,,,,,,,,,,,,,
+strå,,,,,,,,,,,,,,
+triticum aestivum,,,,,,,,,,,,,,
+triticum spelta,,,,,,,,,,,,,,
+dicoccum,,,,,,,,,,,,,,
+kalv,animal (common name),,,,kalv,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+nöthår,,,,,,,,,,,,,,
+cf fraxinus sp,genus (latin),Fraxinus,Oleaceae,Lamiales,,,Plantae,3172323,Fraxinus,GENUS,EXACT,96,https://www.gbif.org/species/3172323,Ash
+rotknöl,,,,,,,,,,,,,,
+litet däggdjur,,,,,,,,,,,,,,
+sol fraktion,,,,,,,,,,,,,,
+(sol),,,,,,,,,,,,,,
+matskopa,,,,,,,,,,,,,,
+horn,,,,,,,,,,,,,,
+oid.,,,,,,,,,,,,,,
+oid,,,,,,,,,,,,,,
+däggfjur,,,,,,,,,,,,,,
+get alt. svin,,,,,,,,,,,,,,
+kottefjäll gran,,,,,,,,,,,,,,
+lid,,,,,,,,,,,,,,
+avenbok,species (common name),Carpinus,Corylaceae,Fagales,avenbok,Carpinus betulus,Plantae,2875818,Carpinus betulus,SPECIES,EXACT,99,https://www.gbif.org/species/2875818,Caucasian Hornbeam
+rosa sp,genus (latin),Rosa,Rosaceae,Rosales,,,Plantae,8395064,Rosa,GENUS,EXACT,95,https://www.gbif.org/species/8395064,Damask Rose
+starrfrukter,,,,,,,,,,,,,,
+kråkbär,species (common name),Empetrum,Ericaceae,Ericales,kråkbär,Empetrum nigrum ssp nigrum,Plantae,6387990,Empetrum nigrum nigrum,SUBSPECIES,EXACT,100,https://www.gbif.org/species/6387990,Crowberry
+tuvull,species (common name),Eriophorum,Cyperaceae,Poales,tuvull,Eriophorum vaginatum,Plantae,2730185,Eriophorum vaginatum,SPECIES,EXACT,99,https://www.gbif.org/species/2730185,Cottongrass
+förkolnad ört,,,,,,,,,,,,,,
+förkolnade granbarr,,,,,,,,,,,,,,
+halm,,,,,,,,,,,,,,
+grankvist,,,,,,,,,,,,,,
+större däggdjur,,,,,,,,,,,,,,
+populus,genus (latin),Populus,Salicaceae,Salicales,,,Plantae,3040183,Populus,GENUS,EXACT,96,https://www.gbif.org/species/3040183,"Aspen, Cottonwood, Poplar"
+matskorpa (sol),,,,,,,,,,,,,,
+obränd,,,,,,,,,,,,,,
+bränt,,,,,,,,,,,,,,
+nötboskap,animal (common name),,,,nötboskap,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+matskorpa (ins),,,,,,,,,,,,,,
+målla,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+förkolnade,,,,,,,,,,,,,,
+tallkottefjäll,,,,,,,,,,,,,,
+frökapsel,,,,,,,,,,,,,,
+obestämt,,,,,,,,,,,,,,
+fröskal,,,,,,,,,,,,,,
+lindbast,,,,,,,,,,,,,,
+mört,animal (common name),,,,mört,Rutilus rutilus,Animalia,2359706,Rutilus rutilus,SPECIES,EXACT,100,https://www.gbif.org/species/2359706,Common Roach
+torne,,,,,,,,,,,,,,
+igelknopp,species (common name),Sparganium,Typhaceae,Poales,igelknopp,Sparganium emersum,Plantae,2702266,Sparganium emersum,SPECIES,EXACT,100,https://www.gbif.org/species/2702266,European Bur-reed
+obränd hasselnöt,,,,,,,,,,,,,,
+fårlort,,,,,,,,,,,,,,
+ceralia,,,,,,,,,,,,,,
+cf salix sp,genus (latin),Salix,Salicaceae,Salicales,,,Plantae,3039576,Salix,GENUS,EXACT,95,https://www.gbif.org/species/3039576,Sallow
+träkol,,,,,,,,,,,,,,
+ko,animal (common name),,,,ko,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+räv,animal (common name),,,,räv,Vulpes vulpes,Animalia,5219243,Vulpes vulpes,SPECIES,EXACT,100,https://www.gbif.org/species/5219243,American Cross Fox
+cerealis indet,,,,,,,,,,,,,,
+ulltextil,,,,,,,,,,,,,,
+cerealia frag,,,,,,,,,,,,,,
+fläder,species (common name),Sambucus,Alismataceae,Alismatales,fläder,Sambucus nigra,Plantae,2888728,Sambucus nigra,SPECIES,EXACT,99,https://www.gbif.org/species/2888728,Black Elder
+bitterpilört,species (common name),Persicaria,Polygonaceae,Caryophyllales,bitterpilört,Persicaria hydropiper,Plantae,8323622,Persicaria hydropiper,SPECIES,EXACT,99,https://www.gbif.org/species/8323622,Marshpepper Knotweed
+rosoideae,,,,,,,,,,,,,,
+triticum sp,genus (latin),Triticum,Poaceae,Poales,,,Plantae,2706388,Triticum,GENUS,EXACT,96,https://www.gbif.org/species/2706388,Wheat
+cf populus sp,genus (latin),Populus,Salicaceae,Salicales,,,Plantae,3040183,Populus,GENUS,EXACT,96,https://www.gbif.org/species/3040183,"Aspen, Cottonwood, Poplar"
+iris,genus (latin),Iris,Iridaceae,Asparagales,,,Plantae,2748017,Iris,GENUS,EXACT,96,https://www.gbif.org/species/2748017,Iris
+rotfragment,,,,,,,,,,,,,,
+knopp,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+stor gräsätare,,,,,,,,,,,,,,
+renhår,,,,,,,,,,,,,,
+ren,animal (common name),,,,ren,Rangifer tarandus,Animalia,5220114,Rangifer tarandus,SPECIES,EXACT,100,https://www.gbif.org/species/5220114,Caribou
+baljfragment,,,,,,,,,,,,,,
+brunskära,species (common name),Bidens,Asteraceae,Asterales,brunskära,Bidens tripartita,Plantae,5391862,Bidens tripartita,SPECIES,EXACT,99,https://www.gbif.org/species/5391862,Erect-bur-marigold
+vindruvskärna,,,,,,,,,,,,,,
+starrfrukt,,,,,,,,,,,,,,
+åkerkrassling,,,,,,,,,,,,,,
+enkorn,,,,,,,,,,,,,,
+triticum,genus (latin),Triticum,Poaceae,Poales,,,Plantae,2706388,Triticum,GENUS,EXACT,96,https://www.gbif.org/species/2706388,Wheat
+jlvträd,,,,,,,,,,,,,,
+humle,species (common name),Humulus,Cannabaceae,Rosales,humle,Humulus lupulus,Plantae,2984535,Humulus lupulus,SPECIES,EXACT,99,https://www.gbif.org/species/2984535,Bine
+smidesloppor,,,,,,,,,,,,,,
+bränt ben,,,,,,,,,,,,,,
+',,,,,,,,,,,,,,
+hjortdjur,animal (family),,Cervidae,,hjortdjur,,Animalia,5298,Cervidae,FAMILY,EXACT,96,https://www.gbif.org/species/5298,Buck
+stenbär,species (common name),Rubus,Rosaceae,Rosales,stenbär,Rubus saxatilis,Plantae,2992808,Rubus saxatilis,SPECIES,EXACT,99,https://www.gbif.org/species/2992808,Greenland thornless blackberry
+björk bulk,,,,,,,,,,,,,,
+fågelbär,,,,,,,,,,,,,,
+rönn,species (common name),Sorbus,Rosaceae,Rosales,rönn,Sorbus aucuparia ssp aucuparia,Plantae,7272117,Sorbus aucuparia aucuparia,SUBSPECIES,EXACT,100,https://www.gbif.org/species/7272117,European mountain-ash
+albark,,,,,,,,,,,,,,
+fiskfjäll,,,,,,,,,,,,,,
+råglosta,species (common name),Bromus,Poaceae,Poales,råglosta,Bromus secalinus,Plantae,2703717,Bromus secalinus,SPECIES,EXACT,99,https://www.gbif.org/species/2703717,Cheat
+grässtrån,,,,,,,,,,,,,,
+hörntand,,,,,,,,,,,,,,
+nörkreatur,animal (common name),,,,nörkreatur,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+fiskben,,,,,,,,,,,,,,
+rhizom,,,,,,,,,,,,,,
+alknopp,,,,,,,,,,,,,,
+strå och örtfragment,,,,,,,,,,,,,,
+granbar,,,,,,,,,,,,,,
+örtdelar,,,,,,,,,,,,,,
+basstamdelar,,,,,,,,,,,,,,
+rotttrådar,,,,,,,,,,,,,,
+pollen,,,,,,,,,,,,,,
+hästböna,,,,,,,,,,,,,,
+spelvete,,,,,,,,,,,,,,
+granbark,,,,,,,,,,,,,,
+sorbus sp,genus (latin),Sorbus,Rosaceae,Rosales,,,Plantae,3012146,Sorbus,GENUS,EXACT,96,https://www.gbif.org/species/3012146,Mountain Ashes
+lindbark,,,,,,,,,,,,,,
+koprolit,,,,,,,,,,,,,,
+okänt ursprung,,,,,,,,,,,,,,
+ogräs,,,,,,,,,,,,,,
+cf hordeum sp,genus (latin),Hordeum,Poaceae,Poales,,,Plantae,2706050,Hordeum,GENUS,EXACT,96,https://www.gbif.org/species/2706050,Barley
+harts eller träkol,,,,,,,,,,,,,,
+gröt,,,,,,,,,,,,,,
+smörblomma,species (common name),Ranunculus,Ranunculaceae,Ranunculales,smörblomma,Ranunculus acris ssp acris,Plantae,7277719,Ranunculus acris acris,SUBSPECIES,EXACT,100,https://www.gbif.org/species/7277719,tall buttercup
+dån,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+starr nöt,,,,,,,,,,,,,,
+djurben,,,,,,,,,,,,,,
+barr,,,,,,,,,,,,,,
+ötkreatur,animal (common name),,,,ötkreatur,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+salix,genus (latin),Salix,Salicaceae,Salicales,,,Plantae,3039576,Salix,GENUS,EXACT,95,https://www.gbif.org/species/3039576,Sallow
+vildapel,species (common name),Malus,Rosaceae,Rosales,vildapel,Malus sylvestris,Plantae,3001509,Malus sylvestris,SPECIES,EXACT,99,https://www.gbif.org/species/3001509,Crab Apple
+stamdelar ört,,,,,,,,,,,,,,
+vikaresäl,animal (common name),,,,vikaresäl,Pusa hispida,Animalia,5219369,Pusa hispida,SPECIES,EXACT,100,https://www.gbif.org/species/5219369,Arctic Ringed Seal
+samt träkol,,,,,,,,,,,,,,
+äppelkärna,,,,,,,,,,,,,,
+syska,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+örtstam och rot,,,,,,,,,,,,,,
+höna,animal (common name),,,,höna,Gallus gallus domesticus,Animalia,9457155,Gallus gallus domesticus,FORM,EXACT,99,https://www.gbif.org/species/9457155,Domestic Chicken
+mossa,,,,,,,,,,,,,,
+sotig jord,,,,,,,,,,,,,,
+kotefjjäl,,,,,,,,,,,,,,
+brända matrester,,,,,,,,,,,,,,
+kalkbruk,,,,,,,,,,,,,,
+textil,,,,,,,,,,,,,,
+rotfilt örtstam,,,,,,,,,,,,,,
+rot,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+naket kor,,,,,,,,,,,,,,
+stjälkar förkolnad,,,,,,,,,,,,,,
+strån,,,,,,,,,,,,,,
+rottråd,,,,,,,,,,,,,,
+måra,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+vial,genus (suffix-inferred),Lathyrus,Fabaceae,Fabales,,,Plantae,10356062,Lathyrus,GENUS,EXACT,96,https://www.gbif.org/species/10356062,Pea
+bjrök,,,,,,,,,,,,,,
+kornell,genus (suffix-inferred),Cornus,Cornaceae,Cornales,,,Plantae,3082226,Cornus,GENUS,EXACT,96,https://www.gbif.org/species/3082226,Dogwood
+svinbete,,,,,,,,,,,,,,
+cf cerealia,genus (latin),Cerealia,Cerealia,Cerealia,,,Plantae,6,Plantae,KINGDOM,HIGHERRANK,99,https://www.gbif.org/species/6,Plants
+svalört,species (common name),Ranunculus,Ranunculaceae,Ranunculales,svalört,Ranunculus ficaria ssp ficaria,Plantae,8204202,Ranunculus ficaria ficaria,SUBSPECIES,EXACT,100,https://www.gbif.org/species/8204202,
+cf hordeum vulgare,,,,,,,,,,,,,,
+hordeum sp,genus (latin),Hordeum,Poaceae,Poales,,,Plantae,2706050,Hordeum,GENUS,EXACT,96,https://www.gbif.org/species/2706050,Barley
+indet,,,,,,,,,,,,,,
+idisslare,,,,,,,,,,,,,,
+sol-fraktion,,,,,,,,,,,,,,
+hästspillning,,,,,,,,,,,,,,
+hjortron,species (common name),Rubus,Rosaceae,Rosales,hjortron,Rubus chamaemorus,Plantae,2998290,Rubus chamaemorus,SPECIES,EXACT,99,https://www.gbif.org/species/2998290,Bake-apple
+björkl,,,,,,,,,,,,,,
+tjärat nöthår,,,,,,,,,,,,,,
+örtstjälkar,,,,,,,,,,,,,,
+männska,animal (common name),,,,männska,Homo sapiens,Animalia,2436436,Homo sapiens,SPECIES,EXACT,100,https://www.gbif.org/species/2436436,Human
+ostron,animal (common name),,,,ostron,Ostrea edulis,Animalia,2286060,Ostrea edulis,SPECIES,EXACT,100,https://www.gbif.org/species/2286060,Edible oyster
+sorbus,genus (latin),Sorbus,Rosaceae,Rosales,,,Plantae,3012146,Sorbus,GENUS,EXACT,96,https://www.gbif.org/species/3012146,Mountain Ashes
+gåsört,species (common name),Argentina,Rosaceae,Rosales,gåsört,Argentina anserina ssp anserina,Plantae,7272211,Argentina anserina anserina,SUBSPECIES,EXACT,100,https://www.gbif.org/species/7272211,Silverweed Cinquefoil
+kvistspetsar,,,,,,,,,,,,,,
+ek bulk,,,,,,,,,,,,,,
+torsk,animal (common name),,,,torsk,Gadus morhua,Animalia,8084280,Gadus morhua,SPECIES,EXACT,100,https://www.gbif.org/species/8084280,Atlantic Cod
+linfiber,,,,,,,,,,,,,,
+stor igelknopp,,,,,,,,,,,,,,
+vattenstäkra,species (common name),Oenanthe,Apiaceae,Apiales,vattenstäkra,Oenanthe aquatica,Plantae,5371888,Oenanthe aquatica,SPECIES,EXACT,99,https://www.gbif.org/species/5371888,Fine-Leaved Water-Dropwort
+åkerbinda,species (common name),Fallopia,Polygonaceae,Caryophyllales,åkerbinda,Fallopia convolvulus,Plantae,6391461,Fallopia convolvulus,SPECIES,EXACT,100,https://www.gbif.org/species/6391461,Black Bindweed
+skräppa,genus (suffix-inferred),Rumex,Polygonaceae,Caryophyllales,,,Plantae,2888942,Rumex,GENUS,EXACT,96,https://www.gbif.org/species/2888942,Dock
+brännässla,species (common name),Urtica,Urticaceae,Rosales,brännässla,Urtica dioica ssp dioica var dioica,Plantae,7300700,Urtica dioica dioica,VARIETY,EXACT,100,https://www.gbif.org/species/7300700,
+hampa,species (common name),Cannabis,Cannabaceae,Rosales,hampa,Cannabis sativa,Plantae,5361880,Cannabis sativa,SPECIES,EXACT,100,https://www.gbif.org/species/5361880,Grass
+kornhalm,,,,,,,,,,,,,,
+cf avena sp,genus (latin),Avena,Poaceae,Poales,,,Plantae,2705282,Avena,GENUS,HIGHERRANK,95,https://www.gbif.org/species/2705282,Oat
+enfrön,,,,,,,,,,,,,,
+enbark,,,,,,,,,,,,,,
+skogskornell,species (common name),Cornus,Cornaceae,Cornales,skogskornell,Cornus sanguinea,Plantae,3082234,Cornus sanguinea,SPECIES,EXACT,99,https://www.gbif.org/species/3082234,Bloodtwig dogwood
+löbträd,,,,,,,,,,,,,,
+sik,animal (common name),,,,sik,Coregonus lavaretus,Animalia,2351211,Coregonus lavaretus,SPECIES,EXACT,100,https://www.gbif.org/species/2351211,Bourget Whitefish
+nypon,,,,,,,,,,,,,,
+oförkolnat material,,,,,,,,,,,,,,
+hår,,,,,,,,,,,,,,
+tagel,,,,,,,,,,,,,,
+åkerpilört,species (common name),Persicaria,Polygonaceae,Caryophyllales,åkerpilört,Persicaria maculosa ssp maculosa,Plantae,7291447,Persicaria maculosa maculosa,VARIETY,EXACT,96,https://www.gbif.org/species/7291447,
+tänder,,,,,,,,,,,,,,
+hägg,species (common name),Prunus,Rosaceae,Rosales,hägg,Prunus padus ssp padus,Plantae,8006007,Prunus padus padus,SUBSPECIES,EXACT,100,https://www.gbif.org/species/8006007,
+ramslök,species (common name),Allium,Araliaceae,Apiales,ramslök,Allium ursinum,Plantae,2857601,Allium ursinum,SPECIES,EXACT,100,https://www.gbif.org/species/2857601,
+örtstjälk,,,,,,,,,,,,,,
+ull,"genus (suffix, ambiguous)",,,,,,,,,,,,,
+bivax,,,,,,,,,,,,,,
+bergssyra,,,,,,,,,,,,,,
+stål,,,,,,,,,,,,,,
+hästtand,,,,,,,,,,,,,,
+växtdelar ört,,,,,,,,,,,,,,
+makrofossil,,,,,,,,,,,,,,
+palsternacka,species (common name),Pastinaca,Apiaceae,Apiales,palsternacka,Pastinaca sativa var sativa,Plantae,7508930,Pastinaca sativa sativa,VARIETY,EXACT,100,https://www.gbif.org/species/7508930,Wild Parsnip
+svinmålla (frö),,,,,,,,,,,,,,
+tiggarranunkel,species (common name),Ranunculus,Ranunculaceae,Ranunculales,tiggarranunkel,Ranunculus scleratus,Plantae,9065081,Ranunculus scleratus,SPECIES,EXACT,100,https://www.gbif.org/species/9065081,
+brudberöd,,,,,,,,,,,,,,
+maloidear,,,,,,,,,,,,,,
+ceerealia indet,,,,,,,,,,,,,,
+nötkrestur,animal (common name),,,,nötkrestur,Bos taurus,Animalia,2441022,Bos taurus,SPECIES,EXACT,100,https://www.gbif.org/species/2441022,Aurochs
+häst eller nötkreatur,,,,,,,,,,,,,,
+lamm,animal (common name),,,,lamm,Ovis aries,Animalia,2441110,Ovis aries,SPECIES,EXACT,99,https://www.gbif.org/species/2441110,Domestic Sheep
+amulettring,,,,,,,,,,,,,,
+aborrskinn,animal (common name),,,,aborrskinn,Perca fluviatilis,Animalia,8140485,Perca fluviatilis,SPECIES,EXACT,100,https://www.gbif.org/species/8140485,Eurasian perch
+staeefrukter,,,,,,,,,,,,,,
+ekl,,,,,,,,,,,,,,
+textilfragment,,,,,,,,,,,,,,
+nötfiber,,,,,,,,,,,,,,
+agn,,,,,,,,,,,,,,
+cf betula sp,genus (latin),Betula,Betulaceae,Fagales,,,Plantae,2875008,Betula,GENUS,HIGHERRANK,95,https://www.gbif.org/species/2875008,Birch
+cyperaceae,genus (latin),Cyperaceae,Cyperaceae,Poales,,,Plantae,7708,Cyperaceae,FAMILY,EXACT,96,https://www.gbif.org/species/7708,Sedge
+snöre,,,,,,,,,,,,,,
+haver,,,,,,,,,,,,,,

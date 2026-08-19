@@ -1,0 +1,412 @@
+species_split,manual_species,count
+,,2
+(sol),(sol)?,19
+aborrskinn,aborrskinn,1
+agn,agn?,1
+åkerbinda,åkerbinda,1
+åkerkrassling,åkerkrassling,1
+åkerpilört,åkerpilört,1
+al,al,6271
+albark,al,1
+älg,älg,25
+alknopp,al,1
+alkottar,al,2
+alkotte,al,6
+alm,alm,72
+amulettring,amulettring?,2
+äppelkärna,äpple,1
+äpple,äpple,1
+ärta,ärta,6
+ask,ask,373
+askl,ask,1
+asp,asp,320
+avenbok,avenbok,1
+baljfragment,plant indet?,1
+bark,trä?,28
+barr,trä?,112
+bärris,bärris,6
+barrträd,trä?,71
+basstamdelar,trä?,3
+bäver,bäver,11
+benved,benved,3
+bergssyra,bergssyra,1
+betula,betula,2
+bitterpilört,bitterpilört,1
+bivax,bivax?,1
+björk,björk,2040
+björk bulk,björk,1
+björkl,björk,1
+björknäver,björk,40
+björn,björn,6
+bjrök,björk,1
+blandmaterial,blandmaterial?,1
+bok,bok,81
+böna,böna?,3
+brakved,brakved,18
+bränd markvegetation,markvegetation?,1
+brända matrester,matrester?,1
+brännässla,brännässla,1
+bränt,bränt?,6
+bränt ben,djur?,2
+bröd,bröd?,106
+bröd- kubbvete,"brödvete, kubbvete",3
+brödvete,brödvete,37
+brudberöd,brudbröd,1
+brudbröd,brudbröd,21
+brunskära,brunskära,2
+ceerealia indet,cerealia,1
+ceralia,cerealia,1
+cerealia,cerealia,459
+cerealia frag,cerealia,3
+cerealia idet,cerealia,3
+cerealia indet,cerealia,322
+cerealia sp,cerealia,34
+cerealis indet,cerealia,1
+cerelia indet,cerealia,1
+cereralia,cerealia,2
+cf acer sp,cf acer sp,3
+cf alnus sp,cf alnus sp,5
+cf avena sp,cf avena sp,1
+cf betula sp,cf betula sp,1
+cf cerealia,cerealia,1
+cf corylus avellana,cf corylus avellana,1
+cf fraxinus sp,cf fraxinus sp,2
+cf hordeum sp,cf hordeum vulgare,2
+cf hordeum vulgare,cf hordeum vulgare,1
+cf maloideae,cf maloideae sp,2
+cf maloideae sp,cf maloideae sp,1
+cf picea sp,cf picea sp,5
+cf pinus sp,cf pinus sp,8
+cf populus sp,cf populus sp,1
+cf quercus sp,cf quercus sp,7
+cf salix sp,cf salix sp,5
+cf tilia sp,cf tilia sp,5
+cf vaccinium sp,cf vaccinium sp,1
+crerealia indet,cerealia,1
+cyperaceae,cyperaceae,1
+däggdjur,däggdjur?,91
+däggfjur,däggdjur?,1
+dån,dån,1
+delfin,delfin,2
+dicoccum,dicoccum,1
+dinkel,dinkel,1
+djurben,djur?,21
+ek,ek,1797
+ek bulk,ek,1
+ekbark,ek,1
+ekl,ek,2
+ekollon,ek,8
+emme,emmervete,121
+emmer,emmervete,120
+emmervete,emmervete,36
+en,en,313
+enbär,en,33
+enbark,en,1
+enfrön,en,1
+enkorn,en,1
+enmöjl gran,"en,gran",0
+ev. harts,plant indet?,1
+fågel,fågel,2
+fågelbär,fågelbär,1
+får,får,58
+fårlort,fårlort?,1
+fårtand,får,1
+fisk,fisk?,9
+fiskben,fisk?,1
+fiskfjäll,fisk?,1
+fläder,fläder,2
+förkolnad,indet?,15
+förkolnad ört,plant indet?,1
+förkolnade,indet?,11
+förkolnade granbarr,gran,3
+förkolnade rottrådar,plant indet?,2
+frökapsel,plant indet?,1
+fröskal,plant indet?,1
+furu,furu,1
+gädda,gädda,3
+gåsört,gåsört,1
+get,get,48
+get alt. svin,"get,svin",1
+getapel,getapel,3
+gnagare,gnagare,1
+gråärt,gråärt,3
+gran,gran,1180
+granbar,gran,37
+granbark,gran,1
+granbarr,gran,35
+grankvist,gran,1
+gräs,plant indet?,22
+gråsäl,gråsäl,3
+gräsätare,djur?,5
+grässtrå,plant indet?,9
+grässtrån,plant indet?,2
+gris,gris,5
+grönlandssäl,grönlandssäl,2
+gröt,plant indet?,1
+hägg,hägg,1
+hagtorn,hagtorn,3
+hallon,hallon,7
+halm,cerealia,11
+halmstrå,cerealia,3
+hampa,hampa,1
+hår,däggdjur?,8
+harts,plant indet?,3
+harts eller träkol,plant indet?,1
+hasel,hassel,3
+hassel,hassel,1690
+hasselnöt,hassel,7
+hasselskal,hassel,10
+häst,häst,91
+häst eller nötkreatur,häst eller nötkreatur?,1
+hästböna,häst,1
+hästsko,häst,2
+hästspillning,häst,1
+hästtand,häst,1
+haver,havre,1
+havre,havre,56
+hirs,hirs,2
+hjärnsubstans,djur?,1
+hjort,hjortdjur,27
+hjortdjur,hjortdjur,1
+hjorthår,hjortdjur,1
+hjortron,hjortron,1
+höna,höna,1
+hordeum,hordeum,26
+hordeum sp,cf hordeum vulgare,3
+hordeum vulgare,cf hordeum vulgare,11
+horn,horn?,1
+hörntand,djur?,1
+hovdjur,däggdjur?,5
+humle,humle,1
+hund,hund,22
+idegran,idegran,6
+idisslare,idisslare,2
+igelknopp,igelknopp,4
+indet,indet?,328
+iris,iris,1
+jlvträd,jlvträd?,1
+jurpa,jurpa,2
+kalkbruk,kalkbruk?,2
+kalv,ko,4
+kärrsköldpadda,kärrsköldpadda,1
+katt,katt,2
+knopp,trä?,6
+knylhavre,knylhavre,11
+ko,ko,1763
+koprolit,djur?,1
+korgblommiga växter,korgblommiga växter,1
+korn,korn,1359
+kornell,kornell,2
+kornhalm,korn,1
+kotefjjäl,indet?,1
+kottefjäll,indet?,51
+kottefjäll gran,gran,1
+kottefjäll tall,tall,6
+kottefjäll. tall,tall,1
+kråkbär,kråkbär,2
+kronhjort,kronhjort,20
+kubbvete,kubbvete,56
+kvist,indet?,4
+kvistspetsar,indet?,1
+läder,djur?,8
+lager,lager?,1
+lamm,lamm,1
+lid,plant indet?,1
+lin,lin,237
+lind,lind,218
+lindbark,lind,1
+lindbast,lind,1
+linfiber,lin,1
+linfrö,lin,1
+litet däggdjur,däggdjur?,2
+ljung,ljung,9
+löbträd,plant indet?,1
+lönn,lönn,175
+lövträ,plant indet?,229
+lövträd,plant indet?,228
+makrofossil,makrofossil?,2
+målla,målla,8
+maloidea,maloideae,90
+maloideae,maloideae,88
+maloidear,maloideae,1
+männinska,människa,1
+människa,människa,1171
+männska,människa,1
+måra,måra,4
+matskopa,matskorpa?,2
+matskorpa,matskorpa?,302
+matskorpa (ins),matskorpa?,3
+matskorpa (sol),matskorpa?,18
+mjölon,mjölon,9
+mört,mört,1
+mossa,mossa,1
+murgröna,murgröna,1
+najet korn,naket?,1
+naket,naket?,63
+naket kor,naket?,49
+naket korn,naket?,48
+nate,nate,2
+näver,nävesläktet?,68
+nörkreatur,däggdjur?,3
+nöt,däggdjur?,176
+nötboskap,däggdjur?,8
+nötfiber,däggdjur?,1
+nöthår,däggdjur?,5
+nötkreatur,däggdjur?,122
+nötkrestur,däggdjur?,1
+nypon,nypon,1
+obestämt,indet?,1
+obränd,indet?,3
+obränd hasselnöt,hassel,2
+oförkolnat material,indet?,1
+ogräs,ogräs,1
+oid,indet?,146
+oid.,indet?,2
+okänt ursprung,indet?,1
+olvon,olvon,4
+organisk massa,indet?,1
+ört,plant indet?,111
+örtdelar,plant indet?,6
+örtfragment,plant indet?,33
+örtstam,plant indet?,34
+örtstam och rot,plant indet?,1
+örtstjälk,plant indet?,2
+örtstjälkar,plant indet?,1
+ospec,indet?,2
+ospec.,indet?,1
+ostron,ostron,2
+ötkreatur,däggdjur?,123
+oxel,oxel,3
+palsternacka,palsternacka,1
+pärlhavre,pärlhavre,2
+pilört,pilört,5
+poaceae indet,poaceae indet,1
+pollen,plant indet?,2
+pomoidea,pomoideae,52
+pomoideae,pomoideae,51
+poppel,poppel,5
+populus,populus sp,14
+populus sp,populus sp,12
+prunus sp,prunus sp,12
+rådjur,rådjur,4
+råg,råg,98
+råglosta,råglosta,2
+ramslök,ramslök,1
+ran,ran,1183
+räv,räv,1
+ren,ren,11
+renhår,ren,1
+revormstörel,revormstörel,1
+rhizom,plant indet?,5
+rönn,rönn,3
+ros,ros,6
+rosa sp,rosa sp,3
+rosoideae,rosoideae,1
+rosväxt,rosväxt,1
+rot,plant indet?,42
+rotfilt,plant indet?,3
+rotfilt örtstam,plant indet?,1
+rotfragment,plant indet?,4
+rotknöl,plant indet?,6
+rottråd,plant indet?,20
+rottrådar,plant indet?,19
+rotttrådar,plant indet?,1
+säd,säd,3
+sädeskorn,cerealia,1
+säl,säl,60
+sälg,sälg,3
+salix,cf salix sp,466
+salix sp,cf salix sp,465
+samt träkol,plant indet?,1
+sik,sik,1
+skalkorn,korn,871
+skalvete,vete,2
+skogskornell,skogskornell,1
+skogsolvon,skogsolvon,1
+skräppa,skräppa,1
+småsnärja,småsnärja,1
+smidesloppor,indet?,1
+smörblomma,smörblomma,1
+snärjmåra,snärjmåra,2
+snöre,indet?,1
+sol,sol?,25
+sol fraktion,sol?,1
+sol-fraktion,sol?,2
+sorbus,sorbus sp,3
+sorbus sp,sorbus sp,2
+sot i keramik,indet?,1
+sotig jord,indet?,1
+spel,speltvete,94
+spelt,speltvete,91
+spelt- emmervete,"speltvete, emmervete",1
+speltvete,spelvete,23
+spelvete,spelvete,1
+staeefrukter,staeefrukter?,1
+stål,stål,1
+stamdelar ört,indet?,1
+stamknöl,stamknöl,1
+starr,Starrsläktet,12
+starr nöt,plant indet?,1
+starrfrukt,starrfrukt,2
+starrfrukter,starrfrukt,1
+stenbär,stenbär,1
+stjälkar förkolnad,indet?,2
+stor gräsätare,däggdjur?,2
+stor igelknopp,igelknopp,2
+större däggdjur,däggdjur?,1
+stort hovdjur,hovdjur,2
+strå,indet?,21
+strå och örtfragment,plant indet?,2
+strån,indet?,5
+svalört,svalört,4
+svalörtsrot,svalört,2
+svin,svin,70
+svinbete,svin,1
+svinmålla,svinmålla,7
+svinmålla (frö),svinmålla,1
+syska,syska,1
+tagel,däggdjur?,2
+tågvirke,indet?,1
+tall,tall,3016
+tallbark,tall,11
+tallbarr,tall,3
+tallkotte,tall,3
+tallkottefjäll,tall,1
+talll,tall,5
+tamsvin,svin,1
+tänder,djur?,1
+tandrot,djur?,1
+terrest,indet?,1
+textil,indet?,4
+textilfragment,indet?,1
+tibast,tibast,1
+ticka,ticka,1
+tiggarranunkel,tiggarranunkel,2
+tjärat nöthår,djur?,1
+torne,indet?,1
+torsk,torsk,1
+träkol,plant indet?,4
+trampört,trampört,3
+triticum,triticum,9
+triticum aestivum,triticum aestivum,3
+triticum monococcum,triticum monococcum,1
+triticum sp,triticum sp,3
+triticum spelta,triticum spelta,1
+triticum vulgare,triticum vulgare,1
+try,try,2
+tuvull,tuvull,1
+ull,ull,13
+ulltextil,ull,1
+uroxe,uroxe,3
+vaccinium sp,cf vaccinium sp,6
+vattenklöver,vattenklöver,1
+vattenstäkra,vattenstäkra,1
+växtdelar ört,plant indet?,1
+vete,vete,269
+vial,vial,1
+vicker,vicker,5
+vikare,vikare,5
+vikaresäl,vikaresäl,2
+vildapel,vildapel,2
+vildsvin,vildsvin,9
+vindruvskärna,vinväxter,1
