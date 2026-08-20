@@ -36,3 +36,18 @@ def next_available_path(filename, dir_path, version=None):
     while (dir_path / f'{stem}_{n}.{suffix}').exists():
         n += 1
     return dir_path / f'{stem}_{n}.{suffix}'
+
+
+def next_available_dir(dir_path, version):
+    """Never reuse a previous run's output folder - if `dir_path/version` already exists, keep
+    bumping a numeric suffix (_2, _3, ...) until a free directory name is found, create it, and
+    return it. Lets each run's outputs live together under one folder instead of every file
+    carrying its own version/suffix in the filename."""
+    dir_path = Path(dir_path)
+    candidate = dir_path / version
+    n = 2
+    while candidate.exists():
+        candidate = dir_path / f'{version}_{n}'
+        n += 1
+    candidate.mkdir(parents=True)
+    return candidate

@@ -4,8 +4,11 @@ Nothing in this folder is tied to a specific Strucke dataset revision.
 
 ```
 resolution/
-  common.py       get_db_engine(), next_available_path() - the DB-connection and
-                   never-overwrite-a-previous-run helpers every notebook in the repo uses.
+  common.py       get_db_engine(), next_available_path(), next_available_dir() - the
+                   DB-connection and never-overwrite-a-previous-run helpers. next_available_dir()
+                   hands back a fresh per-run output folder (e.g. output/mod_dataset/v1,
+                   v1_2, ...) so a run's files can share plain names instead of each carrying
+                   its own version/suffix.
   species.py       resolve_species_ids(manual_df, engine) -> (resolved_df, new_records_df).
                    Takes a manual species mapping (manual_species, resolved_order/family/genus/
                    species, common_name_text/language) and resolves it against sead_staging's
