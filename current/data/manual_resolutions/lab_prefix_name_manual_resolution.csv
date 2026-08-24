@@ -1,0 +1,51 @@
+lab_id_prefix,lab_id_prefix_category,n_rows,example_lab_id,match_type,dating_lab_id,matched_international_lab_id,matched_lab_name,manual_prefix,manual_lab_name,manual_lab_check
+Grn,standard,1,Grn-24657,case_insensitive,743,GrN,Groningen,GrN,Groningen,GrN* Groningen
+Ki,standard,2,Ki-2477; Ki-3336,case_insensitive,777,KI,Kiel,KI,Kiel,KI* Kiel
+LuS,standard,357,LuS-10031; LuS-10069; LuS-10070,case_insensitive,915,LUS,Lund University,LUS,Lund University,LuS Lund
+Lus,standard,6,Lus-13431; Lus-7253; Lus-7254,case_insensitive,915,LUS,Lund University,LUS,Lund University,LuS Lund
+ua,standard,1,ua-26484,case_insensitive,882,Ua,Uppsala Accelerator,Ua,Uppsala Accelerator,Ua Uppsala AMS
+UGA,standard,7,UGA-14067; UGA-14068; UGA-14069,case_insensitive,890,UGa,University of Georgia,UGa,University of Georgia,UGa* University of Georgia
+WK,standard,6,WK-16542; WK-9081; WK-9082,case_insensitive,903,Wk,University of Waikato,Wk,University of Waikato,Wk University of Waikato
+AA,standard,2,AA-1845; AA-1846,exact,686,AA,NSF,AA,NSF,AA NSF-Ariz. AMS Facility
+AAR,standard,27,"AAR-18430,1; AAR-18430,2; AAR-18431,1",exact,687,AAR,University of Aarhus,AAR,University of Aarhus,AAR University of Aarhus
+Beta,standard,2954,Beta--48629; Beta-100264; Beta-100265,exact,700,Beta,Beta Analytic,Beta,Beta Analytic,Beta Beta Analytic
+CAMS,standard,8,CAMS-5359; CAMS-5650; CAMS-5651,exact,709,CAMS,Center for Accelerator Mass Spectrometry,CAMS,Center for Accelerator Mass Spectrometry,CAMS Center for AMS
+ETH,standard,1,ETH-7379,exact,728,ETH,ETH/AMS Facility,ETH,ETH/AMS Facility,ETH ETH/AMS Facility
+GrA,standard,70,GrA-13503; GrA-13517; GrA-14136,exact,742,GrA,Groningen Accelerator,GrA,Groningen Accelerator,GrA* Groningen AMS
+GrN,standard,367,GrN-19822; GrN-19823; GrN-19824,exact,743,GrN,Groningen,GrN,Groningen,GrN* Groningen
+Hel,standard,3,Hel-4536; Hel-4541; Hel-4542,exact,752,Hel,Helsinki,Hel,Helsinki,Hel Helsinki
+KI,standard,97,KI-1300; KI-2287; KI-2289,exact,777,KI,Kiel,KI,Kiel,KI* Kiel
+KIA,standard,100,KIA-14416; KIA-14417; KIA-14418,exact,778,KIA,Kiel AMS,KIA,Kiel AMS,KIA Kiel AMS
+Lu,standard,492,Lu-100; Lu-1005; Lu-1006,exact,791,Lu,Lund,Lu,Lund,Lu* Lund
+NZA,standard,9,NZA-19401; NZA-I9403; NZA-I9404,exact,818,NZA,New Zealand,NZA,New Zealand,NZA Rafter (AMS)
+OxA,standard,2,OxA-2789; OxA-2792,exact,824,OxA,Oxford Radiocarbon Accelerator Unit,OxA,Oxford Radiocarbon Accelerator Unit,OxA Oxford Radiocarbon Accelerator Unit
+Poz,standard,749,Poz-10046; Poz-10047; Poz-10048,exact,831,Poz,Poznan Radiocarbon Laboratory,Poz,Poznan Radiocarbon Laboratory,Poz Poznan
+SUERC,standard,1,SUERC-84952,exact,918,SUERC,Scottish Universities Environmental Research Centre,SUERC,Scottish Universities Environmental Research Centre,SUERC Scottish Universities
+T,standard,160,T-10063; T-10111; T-10112,exact,868,T,Trondheim,T,Trondheim,T Trondheim
+Tln,standard,7,Tln-2408; Tln-2613; Tln-2614,exact,877,Tln,Tallinn,Tln,Tallinn,Tln Tallinn
+U,standard,132,U-1006; U-1010; U-1011,exact,881,U,Uppsala,U,Uppsala,U* Uppsala University
+Ua,standard,19691,Ua--15661; Ua-10022; Ua-10023,exact,882,Ua,Uppsala Accelerator,Ua,Uppsala Accelerator,Ua Uppsala AMS
+UBA,standard,48,UBA-16601; UBA-20881; UBA-21057,exact,913,UBA,Belfast,UBA,Belfast,UBA Belfast
+UCLA,standard,2,UCLA-2463F; UCLA-2763B,exact,887,UCLA,"University of California, Los Angeles",UCLA,"University of California, Los Angeles","UCLA* Univ. of California, Los Angeles"
+UtC,standard,54,UtC-1469; UtC-1470; UtC-1471,exact,896,UtC,Utrecht van der Graaf Laboratorium,UtC,Utrecht van der Graaf Laboratorium,UtC* Utrecht van de Graaff
+VERA,standard,1,VERA-5148,exact,912,VERA,Institut für Radiumforschung und Kernphysik,VERA,Institut für Radiumforschung und Kernphysik,VERA Institut für Radiumforschung und Kernphysik
+ST,standard,3622,ST10; ST10006; ST10008,stripped_star,864,St*,Stockholm,St*,Stockholm,St* Stockholm
+(Okänd -- no lab given at all),unknown_no_lab,85,Okänd 109; Okänd 110; Okänd 111,unknown_placeholder,916,Unknown,Unknown or unspecified,Unknown,Unknown or unspecified,Not in Labs List
+"~B (embedded, not a leading prefix)",non_standard_id,10,16B/1251; 16B/1252; 17B/0142,,,,,Unknown,Unknown or unspecified,?
+"~C (embedded, not a leading prefix)",non_standard_id,488,12C/0126; 14C-5261; 14C-5262,,,,,Unknown,Unknown or unspecified,?
+"~CB (embedded, not a leading prefix)",non_standard_id,2,16CB/0263,,,,,Unknown,Unknown or unspecified,?
+"~M (embedded, not a leading prefix)",non_standard_id,5,16M/0502; 16M/0503; 16M/0505,,,,,Unknown,Unknown or unspecified,?
+"~O (embedded, not a leading prefix)",non_standard_id,5,19O/0186; 19O/0187; 19O/0188,,,,,Unknown,Unknown or unspecified,?
+"~P (embedded, not a leading prefix)",non_standard_id,42,15P/0701; 15P/1027; 15P/1202,,,,,Unknown,Unknown or unspecified,?
+"~T (embedded, not a leading prefix)",non_standard_id,4,15T/1001; 15T/1002; 18T/0301,,,,,Unknown,Unknown or unspecified,?
+"~W (embedded, not a leading prefix)",non_standard_id,20,15W/0651; 16W/0602; 16W/0603,,,,,Unknown,Unknown or unspecified,?
+CAIS,standard,26,CAIS-4751; CAIS-4752; CAIS-4753,,,,,Unknown,Unknown or unspecified,Not in Labs List
+ICA,standard,3,ICA-Okänd 1; ICA-Okänd 2; ICA-Okänd 3,,,,,Unknown,Unknown or unspecified,Not in Labs List
+KlA,standard,2,KlA-37032; KlA-37033,,,,,KIA,Kiel AMS,KIA Kiel AMS
+LTL,standard,308,LTL 14001A; LTL-14001A; LTL-14040A,,,,,LTL,University of Lecce,LTL University of Lecce
+LuA,standard,198,LuA-110; LuA-3750; LuA-3752,,,,,LuA,Lund,LuA* Lund
+Lua,standard,5,Lua-4541; Lua-5360; Lua-5363,,,,,LuA,Lund,LuA* Lund
+MAMS,standard,28,MAMS-18822; MAMS-18823; MAMS-18824,,,,,MAMS,Curt-Engelhorn-Zentrum Archaeom.,MAMS Curt-Engelhorn-Zentrum Archaeom.
+MKL,standard,18,MKL-4120; MKL-4121; MKL-4122,,,,,MKL,Lab. of Absolute Dating,MKL Lab. of Absolute Dating
+Tua,standard,1,Tua-2720,,,,,TUa,Trondheim (AMS),TUa Trondheim (AMS)
+UGAMS,standard,72,UGAMS-10871; UGAMS-10872; UGAMS-10873,,,,,UGAMS,University of Georgia,UGAMS University of Georgia
