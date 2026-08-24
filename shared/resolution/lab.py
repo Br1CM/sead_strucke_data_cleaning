@@ -37,10 +37,11 @@ def resolve_lab_prefix_name(df, manual_df, lab_id_col='lab_id'):
     unique (lab_id_prefix, lab_id_prefix_category) pair -- the hand-reviewed output of
     `lab_id_prefix_matches.csv`.
 
-    Returns df with `lab_id_prefix`/`lab_id_prefix_category` (derived from `lab_id_col`) and
-    `lab_prefix`/`lab_name` (from manual_df's manual_prefix/manual_lab_name) appended. Raises if
-    any row's (prefix, category) has no match in manual_df, since that means a `lab_id_col` shape
-    has shown up that the manual file hasn't been reviewed against yet.
+    Returns df with `lab_id_prefix` (derived from `lab_id_col`) and `lab_prefix`/`lab_name` (from
+    manual_df's manual_prefix/manual_lab_name) appended. `lab_id_prefix_category` is used
+    internally to disambiguate the merge but dropped from the result. Raises if any row's
+    (prefix, category) has no match in manual_df, since that means a `lab_id_col` shape has shown
+    up that the manual file hasn't been reviewed against yet.
     """
     missing = [c for c in REQUIRED_COLUMNS if c not in manual_df.columns]
     if missing:
@@ -63,4 +64,4 @@ def resolve_lab_prefix_name(df, manual_df, lab_id_col='lab_id'):
             f'{len(unresolved)} rows have no match in the manual lab prefix/name mapping: {missing_pairs}'
         )
 
-    return resolved
+    return resolved.drop(columns=['lab_id_prefix_category'])
