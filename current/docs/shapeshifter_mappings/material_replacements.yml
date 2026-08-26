@@ -1,0 +1,275 @@
+# ShapeShifter mapping: material string split into components (guide recipe 4e)
+# Source: current/data/manual_resolutions/material_manual_resolution.csv (42 raw material
+# strings; not every row populates every output column, e.g. most have no 2nd/3rd
+# split component -- those simply have fewer pairs below)
+#
+# HOW TO USE:
+# 1. Go to "Extra Columns" and paste the block below -- it duplicates the raw
+#    `material` column once per output you need (same "duplicate, then map each
+#    duplicate independently" pattern as recipe 4b, since one Replace rule can only
+#    rewrite the column it's attached to).
+# 2. Go to "Replace" (or the YAML tab) and paste the `replacements:` block below.
+# 3. Given how many duplicate columns this needs (12 outputs), pasting via the
+#    YAML tab (as with species, recipe 4d) will be far faster than the UI form for
+#    all but the smallest of these maps.
+# 4. `material_sead_element_*` and `material_sead_modification_type` are element/
+#    modification NAMES (e.g. "Bone(s)", "Carbonised"), not database IDs -- matching
+#    those names to real SEAD database IDs is a live-database step and is out of
+#    scope for this guide (see guide section 6).
+#
+# Replace `material` below with your entity's actual material column name if it differs.
+
+extra_columns:
+  material_split_1_raw: "material"
+  material_split_2_raw: "material"
+  material_split_3_raw: "material"
+  material_english_1_raw: "material"
+  material_english_2_raw: "material"
+  material_english_3_raw: "material"
+  material_modification_raw: "material"
+  material_sead_element_1_raw: "material"
+  material_sead_element_2_raw: "material"
+  material_sead_element_3_raw: "material"
+  material_sead_modification_type_raw: "material"
+  material_sead_record_type_id_raw: "material"
+
+replacements:
+  material_split_1_raw:
+    - map:
+        Träkol: träkol
+        Förkolnat frö: frö
+        Ben, obrända: ben
+        Ben, brända: ben
+        Trä: trä
+        Skalfragment: Skalfragment
+        Organisk beläggning: Organisk beläggning
+        Växtdelar: Växtdelar
+        Bark: Bark
+        Harts: Harts
+        Tand: Tand
+        Frö (ej förkolnat): Frö
+        Animalier: Animalier
+        Kol i järn: Kol i järn
+        Karbonat: Karbonat
+        Humus: Humus
+        Okänd: Okänd
+        Horn: Horn
+        Torv: torv
+        Sotig jord: jord
+        Organiskt material: Organiskt material
+        Bröd: bröd
+        Kåda: kåda
+        Sediment: Sediment
+        Mossa: Mossa
+        Sot/Organiskt material: sot
+        Trä/Bark/Växtdelar: trä
+        Kollagen: Kollagen
+        Skal/mollusker: skal
+        Ben, obränt karbonat frakt.: ben
+        Pollen: pollen
+        Järnslagg: järnslagg
+        Ben,horn: ben
+        Fekalier: fekalier
+        Svamp: svamp
+        Gyttja: Gyttja
+        Stenkol: Stenkol
+        Krossad keramik: Krossad keramik
+        Fisk: fisk
+        Kol/sot: 'Kol '
+      report_unmatched: true
+      report_top: 20
+  material_split_2_raw:
+    - map:
+        Sot/Organiskt material: organiskt material
+        Trä/Bark/Växtdelar: bark
+        Skal/mollusker: mollusker
+        Ben, obränt karbonat frakt.: karbonat
+        Ben,horn: horn
+        Kol/sot: sot
+      report_unmatched: true
+      report_top: 20
+  material_split_3_raw:
+    - map:
+        Trä/Bark/Växtdelar: växtdelar
+      report_unmatched: true
+      report_top: 20
+  material_english_1_raw:
+    - map:
+        Träkol: charcoal
+        Förkolnat frö: seed
+        Ben, obrända: bone
+        Ben, brända: bone
+        Trä: tree
+        Skalfragment: shell fragment
+        Organisk beläggning: organic coating
+        Växtdelar: plant parts
+        Bark: Bark
+        Harts: Resin
+        Tand: tooth
+        Frö (ej förkolnat): seed
+        Animalier: animal
+        Kol i järn: coal
+        Karbonat: carbonate
+        Humus: humus
+        Okänd: unknown
+        Horn: horn
+        Torv: peat
+        Sotig jord: soil
+        Organiskt material: organic material
+        Bröd: bread
+        Kåda: resin
+        Sediment: sediment
+        Mossa: moss
+        Sot/Organiskt material: soot
+        Trä/Bark/Växtdelar: tree
+        Kollagen: collagen
+        Förkolnad: unknown
+        Skal/mollusker: 'shell '
+        Ben, obränt karbonat frakt.: ben
+        Pollen: pollen
+        Järnslagg: iron slag
+        Ben,horn: bone
+        Fekalier: feces
+        Svamp: mushroom
+        Gyttja: mud
+        Stenkol: coal
+        Krossad keramik: ceramics
+        Fisk: fish
+        Kol/sot: coal
+      report_unmatched: true
+      report_top: 20
+  material_english_2_raw:
+    - map:
+        Sot/Organiskt material: organic material
+        Trä/Bark/Växtdelar: bark
+        Skal/mollusker: molluscs
+        Ben,horn: horn
+        Kol/sot: soot
+      report_unmatched: true
+      report_top: 20
+  material_english_3_raw:
+    - map:
+        Trä/Bark/Växtdelar: plant parts
+      report_unmatched: true
+      report_top: 20
+  material_modification_raw:
+    - map:
+        Förkolnat frö: Förkolnat
+        Ben, obrända: obrända
+        Ben, brända: brända
+        Frö (ej förkolnat): ej förkolnat
+        Sotig jord: sooty
+        Förkolnad: charred
+        Ben, obränt karbonat frakt.: uncalcined
+      report_unmatched: true
+      report_top: 20
+  material_sead_element_1_raw:
+    - map:
+        Träkol: Charcoal
+        Förkolnat frö: Seed
+        Ben, obrända: Bone(s)
+        Ben, brända: Bone(s)
+        Trä: Wood
+        Skalfragment: Shell
+        Organisk beläggning: Unknown
+        Växtdelar: Unspecified part
+        Bark: Bark
+        Harts: Resin
+        Tand: Tooth
+        Frö (ej förkolnat): Seed
+        Animalier: Animal parts
+        Kol i järn: Unknown
+        Karbonat: Unknown
+        Humus: Unknown
+        Okänd: Unknown
+        Horn: Horn
+        Torv: Peat
+        Sotig jord: Soil
+        Organiskt material: Unknown
+        Bröd: Unspecified part
+        Kåda: Resin
+        Sediment: Unknown
+        Mossa: Moss
+        Sot/Organiskt material: Unknown
+        Trä/Bark/Växtdelar: Wood
+        Kollagen: Collagen
+        Förkolnad: Unknown
+        Skal/mollusker: Shell
+        Ben, obränt karbonat frakt.: Bone(s)
+        Pollen: Pollen grain
+        Järnslagg: Unknown
+        Ben,horn: Bone(s)
+        Fekalier: Feces
+        Svamp: Fungi
+        Gyttja: Mud
+        Stenkol: Coal
+        Krossad keramik: Ceramics
+        Fisk: Fish
+        Kol/sot: Coal
+      report_unmatched: true
+      report_top: 20
+  material_sead_element_2_raw:
+    - map:
+        Trä/Bark/Växtdelar: Bark
+        Skal/mollusker: Molluscs
+        Kol/sot: Soot
+      report_unmatched: true
+      report_top: 20
+  material_sead_element_3_raw:
+    - map:
+        Trä/Bark/Växtdelar: Unspecified part
+      report_unmatched: true
+      report_top: 20
+  material_sead_modification_type_raw:
+    - map:
+        Förkolnat frö: Carbonised
+        Ben, brända: Carbonised
+        Förkolnad: Carbonised
+        Krossad keramik: Fragmented
+      report_unmatched: true
+      report_top: 20
+  material_sead_record_type_id_raw:
+    - map:
+        Träkol: '9'
+        Förkolnat frö: '2'
+        Ben, obrända: '14'
+        Ben, brända: '14'
+        Trä: '2'
+        Skalfragment: '2'
+        Organisk beläggning: '0'
+        Växtdelar: '2'
+        Bark: '2'
+        Harts: '2'
+        Tand: '14'
+        Frö (ej förkolnat): '2'
+        Animalier: '14'
+        Kol i järn: '0'
+        Karbonat: '0'
+        Humus: '0'
+        Okänd: '0'
+        Horn: '14'
+        Torv: '16'
+        Sotig jord: '12'
+        Organiskt material: '0'
+        Bröd: '2'
+        Kåda: '2'
+        Sediment: '0'
+        Mossa: '2'
+        Sot/Organiskt material: '0'
+        Trä/Bark/Växtdelar: '2'
+        Kollagen: '14'
+        Förkolnad: '0'
+        Skal/mollusker: '4'
+        Ben, obränt karbonat frakt.: '14'
+        Pollen: '2'
+        Järnslagg: '0'
+        Ben,horn: '14'
+        Fekalier: '16'
+        Svamp: '0'
+        Gyttja: '0'
+        Stenkol: '12'
+        Krossad keramik: '21'
+        Fisk: '14'
+        Kol/sot: '12'
+      report_unmatched: true
+      report_top: 20

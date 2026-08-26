@@ -1,0 +1,156 @@
+# ShapeShifter mapping: lab ID prefix extraction + name resolution (guide recipe 4b)
+# Source: current/data/manual_resolutions/lab_prefix_name_manual_resolution.csv (50 pairs)
+# Source regex logic: shared/resolution/lab.py::lab_id_prefix()
+#
+# HOW TO USE (this is the multi-step recipe -- see guide section 4b for the full walkthrough):
+# 1. Go to the "Extra Columns" tab for your entity and paste the `extra_columns:` block
+#    below (creates `lab_id_stripped`, `lab_id_prefix`, `lab_prefix_raw`, `lab_name_raw`).
+# 2. Go to the "Replace" tab (or the YAML tab) and paste the `replacements:` block below --
+#    it applies one map to `lab_prefix_raw` (-> corrected prefix code) and a second,
+#    independent map to `lab_name_raw` (-> full lab name), because a ShapeShifter
+#    replacement rule can only rewrite the column it's attached to, not write to a
+#    different column. Duplicating the column first is how one raw value produces two
+#    outputs.
+# 3. KNOWN GAP: the formula below approximates the pandas 3-tier logic (standard prefix /
+#    no lab at all / letters embedded but not leading) using coalesce()+regex_extract()+
+#    concat(), since ShapeShifter's formula language has no if/case function. It matches
+#    the source regex for every prefix actually seen in this dataset. The one theoretical
+#    edge case it cannot perfectly reproduce is a lab_id with NO letters anywhere and NOT
+#    literally "Okänd" text (e.g. a bare number) -- accept this as a documented limitation.
+#
+# Replace `lab_id` below with your entity's actual lab ID column name if it differs
+# (the pipeline renames it to `lab_nummer`).
+
+extra_columns:
+  # Tier 0: strip the "Okänd###" (unknown sample number) placeholder text first,
+  # e.g. "Ua-Okänd62" -> "Ua-"
+  lab_id_stripped: "=replace(lab_id, 'Okänd', '')"
+  # NOTE: ShapeShifter's `replace()` is a literal substring replace, not regex, so it
+  # cannot exactly match the source's `[-\s]?[Oo]k[äa]nd\s*\d*` pattern (case variants,
+  # trailing digits, optional separator). For a closer match, add a Replace `regex_sub`
+  # rule on `lab_id_stripped` instead, pattern: [-\s]?[Oo]k[äa]nd\s*\d*  replacement: ""
+  # (empty). See guide recipe 4b step 1 for why this is done as a Replace rule, not here.
+
+  # Tier 1 (standard): leading letters at the very start of the string
+  lab_id_prefix_leading: "=regex_extract(lab_id_stripped, '^[A-Za-z]+', 0)"
+  # Tier 3 (non_standard_id): letters anywhere in the string, used only as a fallback
+  lab_id_prefix_embedded: "=regex_extract(lab_id_stripped, '[A-Za-z]+', 0)"
+
+  # Combined prefix key: prefer the leading-letters match; otherwise, if any letters exist
+  # anywhere, format them the same way the source CSV does ("~X (embedded, not a leading
+  # prefix)"); otherwise fall back to the "no lab given at all" placeholder text.
+  lab_id_prefix: "=coalesce(lab_id_prefix_leading, concat('~', lab_id_prefix_embedded, ' (embedded, not a leading prefix)'), '(Okänd -- no lab given at all)')"
+
+  # Duplicate the computed prefix once per desired output column (see note above on why).
+  lab_prefix_raw: "lab_id_prefix"
+  lab_name_raw: "lab_id_prefix"
+
+replacements:
+  lab_prefix_raw:
+    - map:
+        Grn: GrN
+        Ki: KI
+        LuS: LUS
+        Lus: LUS
+        ua: Ua
+        UGA: UGa
+        WK: Wk
+        AA: AA
+        AAR: AAR
+        Beta: Beta
+        CAMS: CAMS
+        ETH: ETH
+        GrA: GrA
+        GrN: GrN
+        Hel: Hel
+        KI: KI
+        KIA: KIA
+        Lu: Lu
+        NZA: NZA
+        OxA: OxA
+        Poz: Poz
+        SUERC: SUERC
+        T: T
+        Tln: Tln
+        U: U
+        Ua: Ua
+        UBA: UBA
+        UCLA: UCLA
+        UtC: UtC
+        VERA: VERA
+        ST: St*
+        (Okänd -- no lab given at all): Unknown
+        ~B (embedded, not a leading prefix): Unknown
+        ~C (embedded, not a leading prefix): Unknown
+        ~CB (embedded, not a leading prefix): Unknown
+        ~M (embedded, not a leading prefix): Unknown
+        ~O (embedded, not a leading prefix): Unknown
+        ~P (embedded, not a leading prefix): Unknown
+        ~T (embedded, not a leading prefix): Unknown
+        ~W (embedded, not a leading prefix): Unknown
+        CAIS: Unknown
+        ICA: Unknown
+        KlA: KIA
+        LTL: LTL
+        LuA: LuA
+        Lua: LuA
+        MAMS: MAMS
+        MKL: MKL
+        Tua: TUa
+        UGAMS: UGAMS
+      report_unmatched: true
+      report_top: 20
+  lab_name_raw:
+    - map:
+        Grn: Groningen
+        Ki: Kiel
+        LuS: Lund University
+        Lus: Lund University
+        ua: Uppsala Accelerator
+        UGA: University of Georgia
+        WK: University of Waikato
+        AA: NSF
+        AAR: University of Aarhus
+        Beta: Beta Analytic
+        CAMS: Center for Accelerator Mass Spectrometry
+        ETH: ETH/AMS Facility
+        GrA: Groningen Accelerator
+        GrN: Groningen
+        Hel: Helsinki
+        KI: Kiel
+        KIA: Kiel AMS
+        Lu: Lund
+        NZA: New Zealand
+        OxA: Oxford Radiocarbon Accelerator Unit
+        Poz: Poznan Radiocarbon Laboratory
+        SUERC: Scottish Universities Environmental Research Centre
+        T: Trondheim
+        Tln: Tallinn
+        U: Uppsala
+        Ua: Uppsala Accelerator
+        UBA: Belfast
+        UCLA: University of California, Los Angeles
+        UtC: Utrecht van der Graaf Laboratorium
+        VERA: Institut für Radiumforschung und Kernphysik
+        ST: Stockholm
+        (Okänd -- no lab given at all): Unknown or unspecified
+        ~B (embedded, not a leading prefix): Unknown or unspecified
+        ~C (embedded, not a leading prefix): Unknown or unspecified
+        ~CB (embedded, not a leading prefix): Unknown or unspecified
+        ~M (embedded, not a leading prefix): Unknown or unspecified
+        ~O (embedded, not a leading prefix): Unknown or unspecified
+        ~P (embedded, not a leading prefix): Unknown or unspecified
+        ~T (embedded, not a leading prefix): Unknown or unspecified
+        ~W (embedded, not a leading prefix): Unknown or unspecified
+        CAIS: Unknown or unspecified
+        ICA: Unknown or unspecified
+        KlA: Kiel AMS
+        LTL: University of Lecce
+        LuA: Lund
+        Lua: Lund
+        MAMS: Curt-Engelhorn-Zentrum Archaeom.
+        MKL: Lab. of Absolute Dating
+        Tua: Trondheim (AMS)
+        UGAMS: University of Georgia
+      report_unmatched: true
+      report_top: 20

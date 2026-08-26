@@ -1,0 +1,52 @@
+# ShapeShifter mapping: landskap correction (guide recipe 4a)
+# Source: current/data/manual_resolutions/landskap_token_corrections.csv (36 pairs)
+#
+# HOW TO USE:
+# 1. Open your entity in ShapeShifter, go to the "Replace" tab (or the entity's YAML tab).
+# 2. Select the `landskap` column.
+# 3. Paste the `replacements:` block below into the entity's YAML under that entity,
+#    or re-create the same pairs one by one via "Add rule" -> match type "map".
+# 4. Values not listed here pass through unchanged -- see guide section 5 for how to
+#    spot new/unmapped landskap values later (via the data preview, not a report panel).
+
+replacements:
+  landskap:
+    - map:
+        Uppland: Uppland
+        Skåne: Skåne
+        Östergötland: Östergötland
+        Södermanland: Södermanland
+        Halland: Halland
+        Bohuslän: Bohuslän
+        Småland: Småland
+        Närke: Närke
+        Västergötland: Västergötland
+        Västmanland: Västmanland
+        Dalarna: Dalarna
+        Blekinge: Blekinge
+        Värmland: Värmland
+        Norrbotten: Norrbotten
+        Gotland: Gotland
+        Lappland: Lappland
+        Medelpad: Medelpad
+        Öland: Öland
+        Jämtland: Jämtland
+        Bo: Bohuslän
+        Ångermanland: Ångermanland
+        Härjedalen: Härjedalen
+        Hälsingland: Hälsingland
+        Gästrikland: Gästrikland
+        Vg: Västergötland
+        Ha: Halland
+        Västerbotten: Västerbotten
+        Sm: Småland
+        Sk: Skåne
+        Dalsland: Dalsland
+        Sö: Södermanland
+        Nä: Närke
+        vg: Västergötland
+        Vs: Västmanland
+        Up: Uppland
+        Ög: Östergötland
+      report_unmatched: true
+      report_top: 20

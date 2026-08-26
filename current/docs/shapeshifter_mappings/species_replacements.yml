@@ -1,0 +1,446 @@
+# ShapeShifter mapping: species token reconciliation (guide recipe 4d)
+# Source: current/data/manual_resolutions/species_token_corrections.csv
+# (410 pairs; 1 fully-blank row(s) skipped -- ShapeShifter map
+# keys can't be empty, and an empty species value has nothing to replace anyway)
+#
+# HOW TO USE:
+# 1. This entity's species column must already be split into one token per row --
+#    see guide recipe 4d steps 1-3 (lowercase, strip noise characters, split into
+#    species_1/species_2/species_3 columns, then Unnest those columns into one row
+#    per token) before this map is useful.
+# 2. Because this map has 410 pairs, do NOT try to enter it one row at a time
+#    via "Add rule" -- open the entity's YAML tab instead and paste the
+#    `replacements:` block below directly. This is still not "programming": you're
+#    pasting a list, the same way you'd paste rows into a spreadsheet.
+#    (A slower, click-by-click "Add rule" alternative is described in the guide for
+#    anyone who prefers it despite the length.)
+# 3. Replace `species_split` below with whatever you named the melted token column.
+#
+# KNOWN LIMITATION -- 4 raw tokens map to MORE THAN ONE canonical species
+# in the source data (a single raw word covers two distinct plants/materials). A
+# ShapeShifter `map` rule can only produce one output value per input, so these
+# 4 rows are mapped to the comma-joined text as-is below, matching the
+# source CSV. To fully reproduce the original pipeline's row-splitting behaviour for
+# just these rows, repeat the Unnest step from recipe 4d a second time on the
+# resulting `manual_species` column (split on comma, then Unnest again) -- the
+# original pipeline does exactly this ("re-melt") for the same handful of rows:
+#   'bröd- kubbvete' -> 'brödvete, kubbvete'
+#   'enmöjl gran' -> 'en,gran'
+#   'get alt. svin' -> 'get,svin'
+#   'spelt- emmervete' -> 'speltvete, emmervete'
+
+replacements:
+  species_split:
+    - map:
+        (sol): (sol)?
+        aborrskinn: aborrskinn
+        agn: agn?
+        åkerbinda: åkerbinda
+        åkerkrassling: åkerkrassling
+        åkerpilört: åkerpilört
+        al: al
+        albark: al
+        älg: älg
+        alknopp: al
+        alkottar: al
+        alkotte: al
+        alm: alm
+        amulettring: amulettring?
+        äppelkärna: äpple
+        äpple: äpple
+        ärta: ärta
+        ask: ask
+        askl: ask
+        asp: asp
+        avenbok: avenbok
+        baljfragment: plant indet?
+        bark: trä?
+        barr: trä?
+        bärris: bärris
+        barrträd: trä?
+        basstamdelar: trä?
+        bäver: bäver
+        benved: benved
+        bergssyra: bergssyra
+        betula: betula
+        bitterpilört: bitterpilört
+        bivax: bivax?
+        björk: björk
+        björk bulk: björk
+        björkl: björk
+        björknäver: björk
+        björn: björn
+        bjrök: björk
+        blandmaterial: blandmaterial?
+        bok: bok
+        böna: böna?
+        brakved: brakved
+        bränd markvegetation: markvegetation?
+        brända matrester: matrester?
+        brännässla: brännässla
+        bränt: bränt?
+        bränt ben: djur?
+        bröd: bröd?
+        bröd- kubbvete: brödvete, kubbvete
+        brödvete: brödvete
+        brudberöd: brudbröd
+        brudbröd: brudbröd
+        brunskära: brunskära
+        ceerealia indet: cerealia
+        ceralia: cerealia
+        cerealia: cerealia
+        cerealia frag: cerealia
+        cerealia idet: cerealia
+        cerealia indet: cerealia
+        cerealia sp: cerealia
+        cerealis indet: cerealia
+        cerelia indet: cerealia
+        cereralia: cerealia
+        cf acer sp: cf acer sp
+        cf alnus sp: cf alnus sp
+        cf avena sp: cf avena sp
+        cf betula sp: cf betula sp
+        cf cerealia: cerealia
+        cf corylus avellana: cf corylus avellana
+        cf fraxinus sp: cf fraxinus sp
+        cf hordeum sp: cf hordeum vulgare
+        cf hordeum vulgare: cf hordeum vulgare
+        cf maloideae: cf maloideae sp
+        cf maloideae sp: cf maloideae sp
+        cf picea sp: cf picea sp
+        cf pinus sp: cf pinus sp
+        cf populus sp: cf populus sp
+        cf quercus sp: cf quercus sp
+        cf salix sp: cf salix sp
+        cf tilia sp: cf tilia sp
+        cf vaccinium sp: cf vaccinium sp
+        crerealia indet: cerealia
+        cyperaceae: cyperaceae
+        däggdjur: däggdjur?
+        däggfjur: däggdjur?
+        dån: dån
+        delfin: delfin
+        dicoccum: dicoccum
+        dinkel: dinkel
+        djurben: djur?
+        ek: ek
+        ek bulk: ek
+        ekbark: ek
+        ekl: ek
+        ekollon: ek
+        emme: emmervete
+        emmer: emmervete
+        emmervete: emmervete
+        en: en
+        enbär: en
+        enbark: en
+        enfrön: en
+        enkorn: en
+        enmöjl gran: en,gran
+        ev. harts: plant indet?
+        fågel: fågel
+        fågelbär: fågelbär
+        får: får
+        fårlort: fårlort?
+        fårtand: får
+        fisk: fisk?
+        fiskben: fisk?
+        fiskfjäll: fisk?
+        fläder: fläder
+        förkolnad: indet?
+        förkolnad ört: plant indet?
+        förkolnade: indet?
+        förkolnade granbarr: gran
+        förkolnade rottrådar: plant indet?
+        frökapsel: plant indet?
+        fröskal: plant indet?
+        furu: furu
+        gädda: gädda
+        gåsört: gåsört
+        get: get
+        get alt. svin: get,svin
+        getapel: getapel
+        gnagare: gnagare
+        gråärt: gråärt
+        gran: gran
+        granbar: gran
+        granbark: gran
+        granbarr: gran
+        grankvist: gran
+        gräs: plant indet?
+        gråsäl: gråsäl
+        gräsätare: djur?
+        grässtrå: plant indet?
+        grässtrån: plant indet?
+        gris: gris
+        grönlandssäl: grönlandssäl
+        gröt: plant indet?
+        hägg: hägg
+        hagtorn: hagtorn
+        hallon: hallon
+        halm: cerealia
+        halmstrå: cerealia
+        hampa: hampa
+        hår: däggdjur?
+        harts: plant indet?
+        harts eller träkol: plant indet?
+        hasel: hassel
+        hassel: hassel
+        hasselnöt: hassel
+        hasselskal: hassel
+        häst: häst
+        häst eller nötkreatur: häst eller nötkreatur?
+        hästböna: häst
+        hästsko: häst
+        hästspillning: häst
+        hästtand: häst
+        haver: havre
+        havre: havre
+        hirs: hirs
+        hjärnsubstans: djur?
+        hjort: hjortdjur
+        hjortdjur: hjortdjur
+        hjorthår: hjortdjur
+        hjortron: hjortron
+        höna: höna
+        hordeum: hordeum
+        hordeum sp: cf hordeum vulgare
+        hordeum vulgare: cf hordeum vulgare
+        horn: horn?
+        hörntand: djur?
+        hovdjur: däggdjur?
+        humle: humle
+        hund: hund
+        idegran: idegran
+        idisslare: idisslare
+        igelknopp: igelknopp
+        indet: indet?
+        iris: iris
+        jlvträd: jlvträd?
+        jurpa: jurpa
+        kalkbruk: kalkbruk?
+        kalv: ko
+        kärrsköldpadda: kärrsköldpadda
+        katt: katt
+        knopp: trä?
+        knylhavre: knylhavre
+        ko: ko
+        koprolit: djur?
+        korgblommiga växter: korgblommiga växter
+        korn: korn
+        kornell: kornell
+        kornhalm: korn
+        kotefjjäl: indet?
+        kottefjäll: indet?
+        kottefjäll gran: gran
+        kottefjäll tall: tall
+        kottefjäll. tall: tall
+        kråkbär: kråkbär
+        kronhjort: kronhjort
+        kubbvete: kubbvete
+        kvist: indet?
+        kvistspetsar: indet?
+        läder: djur?
+        lager: lager?
+        lamm: lamm
+        lid: plant indet?
+        lin: lin
+        lind: lind
+        lindbark: lind
+        lindbast: lind
+        linfiber: lin
+        linfrö: lin
+        litet däggdjur: däggdjur?
+        ljung: ljung
+        löbträd: plant indet?
+        lönn: lönn
+        lövträ: plant indet?
+        lövträd: plant indet?
+        makrofossil: makrofossil?
+        målla: målla
+        maloidea: maloideae
+        maloideae: maloideae
+        maloidear: maloideae
+        männinska: människa
+        människa: människa
+        männska: människa
+        måra: måra
+        matskopa: matskorpa?
+        matskorpa: matskorpa?
+        matskorpa (ins): matskorpa?
+        matskorpa (sol): matskorpa?
+        mjölon: mjölon
+        mört: mört
+        mossa: mossa
+        murgröna: murgröna
+        najet korn: naket?
+        naket: naket?
+        naket kor: naket?
+        naket korn: naket?
+        nate: nate
+        näver: nävesläktet?
+        nörkreatur: däggdjur?
+        nöt: däggdjur?
+        nötboskap: däggdjur?
+        nötfiber: däggdjur?
+        nöthår: däggdjur?
+        nötkreatur: däggdjur?
+        nötkrestur: däggdjur?
+        nypon: nypon
+        obestämt: indet?
+        obränd: indet?
+        obränd hasselnöt: hassel
+        oförkolnat material: indet?
+        ogräs: ogräs
+        oid: indet?
+        oid.: indet?
+        okänt ursprung: indet?
+        olvon: olvon
+        organisk massa: indet?
+        ört: plant indet?
+        örtdelar: plant indet?
+        örtfragment: plant indet?
+        örtstam: plant indet?
+        örtstam och rot: plant indet?
+        örtstjälk: plant indet?
+        örtstjälkar: plant indet?
+        ospec: indet?
+        ospec.: indet?
+        ostron: ostron
+        ötkreatur: däggdjur?
+        oxel: oxel
+        palsternacka: palsternacka
+        pärlhavre: pärlhavre
+        pilört: pilört
+        poaceae indet: poaceae indet
+        pollen: plant indet?
+        pomoidea: pomoideae
+        pomoideae: pomoideae
+        poppel: poppel
+        populus: populus sp
+        populus sp: populus sp
+        prunus sp: prunus sp
+        rådjur: rådjur
+        råg: råg
+        råglosta: råglosta
+        ramslök: ramslök
+        ran: ran
+        räv: räv
+        ren: ren
+        renhår: ren
+        revormstörel: revormstörel
+        rhizom: plant indet?
+        rönn: rönn
+        ros: ros
+        rosa sp: rosa sp
+        rosoideae: rosoideae
+        rosväxt: rosväxt
+        rot: plant indet?
+        rotfilt: plant indet?
+        rotfilt örtstam: plant indet?
+        rotfragment: plant indet?
+        rotknöl: plant indet?
+        rottråd: plant indet?
+        rottrådar: plant indet?
+        rotttrådar: plant indet?
+        säd: säd
+        sädeskorn: cerealia
+        säl: säl
+        sälg: sälg
+        salix: cf salix sp
+        salix sp: cf salix sp
+        samt träkol: plant indet?
+        sik: sik
+        skalkorn: korn
+        skalvete: vete
+        skogskornell: skogskornell
+        skogsolvon: skogsolvon
+        skräppa: skräppa
+        småsnärja: småsnärja
+        smidesloppor: indet?
+        smörblomma: smörblomma
+        snärjmåra: snärjmåra
+        snöre: indet?
+        sol: sol?
+        sol fraktion: sol?
+        sol-fraktion: sol?
+        sorbus: sorbus sp
+        sorbus sp: sorbus sp
+        sot i keramik: indet?
+        sotig jord: indet?
+        spel: speltvete
+        spelt: speltvete
+        spelt- emmervete: speltvete, emmervete
+        speltvete: spelvete
+        spelvete: spelvete
+        staeefrukter: staeefrukter?
+        stål: stål
+        stamdelar ört: indet?
+        stamknöl: stamknöl
+        starr: Starrsläktet
+        starr nöt: plant indet?
+        starrfrukt: starrfrukt
+        starrfrukter: starrfrukt
+        stenbär: stenbär
+        stjälkar förkolnad: indet?
+        stor gräsätare: däggdjur?
+        stor igelknopp: igelknopp
+        större däggdjur: däggdjur?
+        stort hovdjur: hovdjur
+        strå: indet?
+        strå och örtfragment: plant indet?
+        strån: indet?
+        svalört: svalört
+        svalörtsrot: svalört
+        svin: svin
+        svinbete: svin
+        svinmålla: svinmålla
+        svinmålla (frö): svinmålla
+        syska: syska
+        tagel: däggdjur?
+        tågvirke: indet?
+        tall: tall
+        tallbark: tall
+        tallbarr: tall
+        tallkotte: tall
+        tallkottefjäll: tall
+        talll: tall
+        tamsvin: svin
+        tänder: djur?
+        tandrot: djur?
+        terrest: indet?
+        textil: indet?
+        textilfragment: indet?
+        tibast: tibast
+        ticka: ticka
+        tiggarranunkel: tiggarranunkel
+        tjärat nöthår: djur?
+        torne: indet?
+        torsk: torsk
+        träkol: plant indet?
+        trampört: trampört
+        triticum: triticum
+        triticum aestivum: triticum aestivum
+        triticum monococcum: triticum monococcum
+        triticum sp: triticum sp
+        triticum spelta: triticum spelta
+        triticum vulgare: triticum vulgare
+        try: try
+        tuvull: tuvull
+        ull: ull
+        ulltextil: ull
+        uroxe: uroxe
+        vaccinium sp: cf vaccinium sp
+        vattenklöver: vattenklöver
+        vattenstäkra: vattenstäkra
+        växtdelar ört: plant indet?
+        vete: vete
+        vial: vial
+        vicker: vicker
+        vikare: vikare
+        vikaresäl: vikaresäl
+        vildapel: vildapel
+        vildsvin: vildsvin
+        vindruvskärna: vinväxter
+      report_unmatched: true
+      report_top: 30
