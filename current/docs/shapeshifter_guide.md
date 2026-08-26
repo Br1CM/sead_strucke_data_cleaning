@@ -206,18 +206,29 @@ as a rule with match type **`map`** — literally a list of "this raw value" →
   2. Replace tab: add a `regex_sub` rule on `species_lower` to strip stray digits
      and `?` characters (pattern `[0-9?]`, replace with nothing) — this matches
      the noise-stripping the notebook does before splitting.
-  3. Extra Columns: split into up to 3 token columns (species text rarely has more
-     than 3 comma/slash-separated parts — check your data preview to confirm):
+  3. Extra Columns: split into token columns. Checking every row confirms the real
+     maximum is **6** species packed into one cell, separated by either a comma or
+     a slash (e.g. `en, salix sp., hassel, alm, brakved, ask`). As with the
+     `site_id` split in recipe 4c, a single `regex_extract` pattern can only ever
+     find the *first* delimiter, so each column needs its own pattern that walks
+     past one more part than the last — here written to match on `,` **or** `/`
+     (the character class `[,/]` in each pattern):
      ```yaml
      extra_columns:
-       species_1: "=trim(regex_extract(species_lower, '^[^,/]+', 0))"
-       species_2: "=trim(regex_extract(species_lower, '[,/]\\s*([^,/]+)', 1))"
+       species_1: "=trim(regex_extract(species_lower, '^([^,/]+)', 1))"
+       species_2: "=trim(regex_extract(species_lower, '^[^,/]+[,/]\\s*([^,/]+)', 1))"
+       species_3: "=trim(regex_extract(species_lower, '^[^,/]+[,/]\\s*[^,/]+[,/]\\s*([^,/]+)', 1))"
+       species_4: "=trim(regex_extract(species_lower, '^[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*([^,/]+)', 1))"
+       species_5: "=trim(regex_extract(species_lower, '^[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*([^,/]+)', 1))"
+       species_6: "=trim(regex_extract(species_lower, '^[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*[^,/]+[,/]\\s*([^,/]+)', 1))"
      ```
+     A row with fewer than 6 species simply gets `null` in the columns it doesn't
+     need — that's expected (over 96% of rows only ever populate `species_1`).
   4. Unnest:
      ```yaml
      unnest:
        id_vars: [<your other identifying columns>]
-       value_vars: [species_1, species_2]
+       value_vars: [species_1, species_2, species_3, species_4, species_5, species_6]
        var_name: species_part
        value_name: species_split
      ```
