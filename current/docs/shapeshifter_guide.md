@@ -12,7 +12,7 @@ one regex-based text-extraction step, to clean up the Strucke C14 dataset:
 |---|---|---|
 | 1 | `landskap` (province) abbreviations/typos | `landskap_token_corrections.csv` |
 | 2 | `lab_id` prefix extraction + lab name lookup | `lab_prefix_name_manual_resolution.csv` |
-| 3 | Multi-value `lämningsnummer`/`uppdragsnummer` columns | (no CSV — a plain comma split) |
+| 3 | Multi-value `site_id`/`uppdragsnummer` columns (up to 4 IDs in one cell) | (no CSV — a plain comma split) |
 | 4 | `species` text split into tokens + canonical spelling | `species_token_corrections.csv` |
 | 5 | `material` text split into components + translation | `material_manual_resolution.csv` |
 
@@ -39,10 +39,11 @@ This guide assumes you already have:
   attached to that entity).
 
 You'll need to know the entity's name and the names of the columns you're working
-with: `landskap`, `lab_id` (renamed `lab_nummer` by the pipeline), `species`,
-`material`, and `lämningsnummer`/`uppdragsnummer`. If any of these don't exist yet,
-set that up first (Files tab → upload → Entities tab → Add Entity) before
-continuing.
+with — these are the **raw** column names, as they appear straight out of the CSV
+(the pipeline renames some of them later, but ShapeShifter works from the raw
+upload): `landskap`, `lab_id`, `species`, `material`, `site_id`, and
+`uppdragsnummer`. If any of these don't exist yet, set that up first (Files tab →
+upload → Entities tab → Add Entity) before continuing.
 
 ## 3. Core Concept: The "Raw Value → Manual Value" Pattern
 
@@ -140,38 +141,54 @@ as a rule with match type **`map`** — literally a list of "this raw value" →
     instead of the more specific tag the notebook produces. This does not affect
     any lab ID actually seen in the current dataset — only a note for future data.
 
-### 4c. Splitting multi-value columns (`lämningsnummer` / `uppdragsnummer`)
+### 4c. Splitting multi-value columns (`site_id` / `uppdragsnummer`)
 
 - **What this replaces:** a handful of rows pack more than one site/project ID into
-  a single comma-separated cell (e.g. `L2016:9874, L2015:343`).
+  a single comma-separated cell. In the raw data this column is called **`site_id`**
+  (the pipeline renames it to `lämningsnummer` partway through — but ShapeShifter
+  works from the raw upload, so use `site_id` here). Checking every row confirms
+  the real maximum is **4** values in one cell, e.g.:
+  `L1983:7553, L1983:7552, L1983:8196, L1983:7619`. `uppdragsnummer` maxes out at 3.
 - **ShapeShifter feature:** this one is **not** a job for Unnest by itself — despite
   the name, Unnest only turns *already-separate columns* into rows (like Excel's
   "unpivot"); it doesn't split a single delimited string. So the recipe is: first
   pull the comma-separated parts into their own columns, *then* Unnest those
   columns into rows.
-  1. Go to **Extra Columns** and create one column per expected part, using
-     `regex_extract`, e.g.:
+  1. Go to **Extra Columns** and create one column per expected part. A single
+     `regex_extract` pattern like `,\s*([^,]+)` only ever finds the *first* comma in
+     the cell, so it can't be reused as-is for part 3 or part 4 — each part instead
+     needs its own pattern that explicitly walks past the parts before it:
      ```yaml
      extra_columns:
-       lamningsnummer_1: "=trim(regex_extract(lamningsnummer, '^[^,]+', 0))"
-       lamningsnummer_2: "=trim(regex_extract(lamningsnummer, ',\\s*([^,]+)', 1))"
+       site_id_1: "=trim(regex_extract(site_id, '^([^,]+)', 1))"
+       site_id_2: "=trim(regex_extract(site_id, '^[^,]+,\\s*([^,]+)', 1))"
+       site_id_3: "=trim(regex_extract(site_id, '^[^,]+,\\s*[^,]+,\\s*([^,]+)', 1))"
+       site_id_4: "=trim(regex_extract(site_id, '^[^,]+,\\s*[^,]+,\\s*[^,]+,\\s*([^,]+)', 1))"
      ```
-     (add a `_3` if you find a row with three values — check the data preview for
-     the widest split needed).
+     Each pattern is anchored at the start (`^`) and skips over one more
+     comma-separated field than the last, so `site_id_3` only matches once two
+     earlier fields have been consumed, and so on. A row with fewer than 4 values
+     simply gets `null` in the columns it doesn't need — that's expected. (For
+     `uppdragsnummer`, three columns following the same pattern are enough.)
   2. Go to the Unnest configuration and set:
      ```yaml
      unnest:
        id_vars: [<your other identifying columns>]
-       value_vars: [lamningsnummer_1, lamningsnummer_2]
-       var_name: lamningsnummer_part
-       value_name: lamningsnummer_split
+       value_vars: [site_id_1, site_id_2, site_id_3, site_id_4]
+       var_name: site_id_part
+       value_name: site_id_split
      ```
   3. Save and preview — row count should grow by one extra row for every
-     comma-separated cell.
-- **How to check it worked:** in the preview, find a site that originally had two
-  IDs and confirm it now appears as two rows, each with one clean ID.
-- **Gotchas:** unlike 4d below, there's no lookup/reconciliation step needed
-  afterward — this is a pure fan-out, nothing to canonicalize.
+     comma-separated cell (a row with 4 site IDs becomes 4 rows).
+- **How to check it worked:** in the preview, find the row with 4 site IDs and
+  confirm it now appears as 4 separate rows, each with one clean ID.
+- **Gotchas:**
+  - Double-check your own data for the true widest split before fixing the number
+    of `_N` columns — 4 is confirmed for `site_id` in this dataset, but a future
+    data update could introduce a wider one; the preview will show a `null` in the
+    last column if nothing needed it, and a truncated value if something did.
+  - Unlike 4d below, there's no lookup/reconciliation step needed afterward — this
+    is a pure fan-out, nothing to canonicalize.
 
 ### 4d. Splitting and reconciling species text
 
